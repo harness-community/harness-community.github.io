@@ -1,0 +1,17 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Harness Community – Community</title>
+    <link>https://harness-community.github.io/community/</link>
+    <description>Recent content in Community on Harness Community</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="https://harness-community.github.io/community/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+  </channel>
+</rss>
