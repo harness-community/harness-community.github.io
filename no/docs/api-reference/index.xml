@@ -1,12 +1,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Goldydocs – Komplett API-referance</title>
-    <link>https://harness-community.github.io/no/docs/api-reference/</link>
+    <link>/harness-community.github.io/no/docs/api-reference/</link>
     <description>Recent content in Komplett API-referance on Goldydocs</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Mon, 02 Jan 2017 00:00:00 +0000</lastBuildDate>
     
-	  <atom:link href="https://harness-community.github.io/no/docs/api-reference/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="/harness-community.github.io/no/docs/api-reference/index.xml" rel="self" type="application/rss+xml" />
     
     
       
@@ -16,10 +16,10 @@
     
     <item>
       <title>Docs: Praktiske eksempler</title>
-      <link>https://harness-community.github.io/no/docs/api-reference/examples/</link>
+      <link>/harness-community.github.io/no/docs/api-reference/examples/</link>
       <pubDate>Tue, 03 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://harness-community.github.io/no/docs/api-reference/examples/</guid>
+      <guid>/harness-community.github.io/no/docs/api-reference/examples/</guid>
       <description>
         
         
@@ -35,10 +35,10 @@
     
     <item>
       <title>Docs: Matten til monolitter: Detaljert spesifikasjon</title>
-      <link>https://harness-community.github.io/no/docs/api-reference/the-math-of-monoliths-detailed-spec/</link>
+      <link>/harness-community.github.io/no/docs/api-reference/the-math-of-monoliths-detailed-spec/</link>
       <pubDate>Tue, 03 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://harness-community.github.io/no/docs/api-reference/the-math-of-monoliths-detailed-spec/</guid>
+      <guid>/harness-community.github.io/no/docs/api-reference/the-math-of-monoliths-detailed-spec/</guid>
       <description>
         
         
@@ -341,10 +341,10 @@ bar := &amp;#34;foo&amp;#34;;
     
     <item>
       <title>Docs: Innsiden av Java: Drivverket</title>
-      <link>https://harness-community.github.io/no/docs/api-reference/the-inside-of-java-the-inner-workings/</link>
+      <link>/harness-community.github.io/no/docs/api-reference/the-inside-of-java-the-inner-workings/</link>
       <pubDate>Mon, 02 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://harness-community.github.io/no/docs/api-reference/the-inside-of-java-the-inner-workings/</guid>
+      <guid>/harness-community.github.io/no/docs/api-reference/the-inside-of-java-the-inner-workings/</guid>
       <description>
         
         

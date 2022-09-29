@@ -1,11 +1,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Harness Community – Documentation</title>
-    <link>https://harness-community.github.io/docs/</link>
+    <link>/harness-community.github.io/docs/</link>
     <description>Recent content in Documentation on Harness Community</description>
     <generator>Hugo -- gohugo.io</generator>
     
-	  <atom:link href="https://harness-community.github.io/docs/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="/harness-community.github.io/docs/index.xml" rel="self" type="application/rss+xml" />
     
     
       
@@ -15,10 +15,10 @@
     
     <item>
       <title>Docs: Bed and Chair Metrics</title>
-      <link>https://harness-community.github.io/docs/tasks/beds/</link>
+      <link>/harness-community.github.io/docs/tasks/beds/</link>
       <pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://harness-community.github.io/docs/tasks/beds/</guid>
+      <guid>/harness-community.github.io/docs/tasks/beds/</guid>
       <description>
         
         
@@ -328,10 +328,10 @@ bar := &amp;#34;foo&amp;#34;;
     
     <item>
       <title>Docs: Configuring Ponycopters</title>
-      <link>https://harness-community.github.io/docs/tasks/ponycopters/configuring-ponycopters/</link>
+      <link>/harness-community.github.io/docs/tasks/ponycopters/configuring-ponycopters/</link>
       <pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://harness-community.github.io/docs/tasks/ponycopters/configuring-ponycopters/</guid>
+      <guid>/harness-community.github.io/docs/tasks/ponycopters/configuring-ponycopters/</guid>
       <description>
         
         
@@ -641,10 +641,10 @@ bar := &amp;#34;foo&amp;#34;;
     
     <item>
       <title>Docs: Launching Ponycopters</title>
-      <link>https://harness-community.github.io/docs/tasks/ponycopters/launching-ponycopters/</link>
+      <link>/harness-community.github.io/docs/tasks/ponycopters/launching-ponycopters/</link>
       <pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://harness-community.github.io/docs/tasks/ponycopters/launching-ponycopters/</guid>
+      <guid>/harness-community.github.io/docs/tasks/ponycopters/launching-ponycopters/</guid>
       <description>
         
         
@@ -954,10 +954,10 @@ bar := &amp;#34;foo&amp;#34;;
     
     <item>
       <title>Docs: Multi-Bear Domicile Setup</title>
-      <link>https://harness-community.github.io/docs/tutorials/multi-bear/</link>
+      <link>/harness-community.github.io/docs/tutorials/multi-bear/</link>
       <pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://harness-community.github.io/docs/tutorials/multi-bear/</guid>
+      <guid>/harness-community.github.io/docs/tutorials/multi-bear/</guid>
       <description>
         
         
@@ -1267,10 +1267,10 @@ bar := &amp;#34;foo&amp;#34;;
     
     <item>
       <title>Docs: Porridge Assessment</title>
-      <link>https://harness-community.github.io/docs/tasks/porridge/</link>
+      <link>/harness-community.github.io/docs/tasks/porridge/</link>
       <pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://harness-community.github.io/docs/tasks/porridge/</guid>
+      <guid>/harness-community.github.io/docs/tasks/porridge/</guid>
       <description>
         
         
@@ -1580,10 +1580,10 @@ bar := &amp;#34;foo&amp;#34;;
     
     <item>
       <title>Docs: Another Task</title>
-      <link>https://harness-community.github.io/docs/tasks/task/</link>
+      <link>/harness-community.github.io/docs/tasks/task/</link>
       <pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://harness-community.github.io/docs/tasks/task/</guid>
+      <guid>/harness-community.github.io/docs/tasks/task/</guid>
       <description>
         
         
@@ -1893,10 +1893,10 @@ bar := &amp;#34;foo&amp;#34;;
     
     <item>
       <title>Docs: Another Tutorial</title>
-      <link>https://harness-community.github.io/docs/tutorials/tutorial2/</link>
+      <link>/harness-community.github.io/docs/tutorials/tutorial2/</link>
       <pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://harness-community.github.io/docs/tutorials/tutorial2/</guid>
+      <guid>/harness-community.github.io/docs/tutorials/tutorial2/</guid>
       <description>
         
         
@@ -2206,10 +2206,10 @@ bar := &amp;#34;foo&amp;#34;;
     
     <item>
       <title>Docs: Example Page</title>
-      <link>https://harness-community.github.io/docs/getting-started/example-page/</link>
+      <link>/harness-community.github.io/docs/getting-started/example-page/</link>
       <pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://harness-community.github.io/docs/getting-started/example-page/</guid>
+      <guid>/harness-community.github.io/docs/getting-started/example-page/</guid>
       <description>
         
         
@@ -2519,10 +2519,10 @@ bar := &amp;#34;foo&amp;#34;;
     
     <item>
       <title>Docs: Parameter Reference</title>
-      <link>https://harness-community.github.io/docs/reference/parameter-reference/</link>
+      <link>/harness-community.github.io/docs/reference/parameter-reference/</link>
       <pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://harness-community.github.io/docs/reference/parameter-reference/</guid>
+      <guid>/harness-community.github.io/docs/reference/parameter-reference/</guid>
       <description>
         
         

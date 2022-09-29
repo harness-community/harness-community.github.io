@@ -2,23 +2,23 @@
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <sitemap>
-    <loc>https://harness-community.github.io/fa/sitemap.xml</loc>
+    <loc>/harness-community.github.io/fa/sitemap.xml</loc>
     
-      <lastmod>2022-09-29T21:59:33+05:30</lastmod>
-    
-  </sitemap>
-  
-  <sitemap>
-    <loc>https://harness-community.github.io/no/sitemap.xml</loc>
-    
-      <lastmod>2022-09-29T21:59:33+05:30</lastmod>
+      <lastmod>2022-09-29T23:55:58+05:30</lastmod>
     
   </sitemap>
   
   <sitemap>
-    <loc>https://harness-community.github.io/en/sitemap.xml</loc>
+    <loc>/harness-community.github.io/no/sitemap.xml</loc>
     
-      <lastmod>2022-09-29T21:59:33+05:30</lastmod>
+      <lastmod>2022-09-29T23:55:58+05:30</lastmod>
+    
+  </sitemap>
+  
+  <sitemap>
+    <loc>/harness-community.github.io/en/sitemap.xml</loc>
+    
+      <lastmod>2022-09-29T23:55:58+05:30</lastmod>
     
   </sitemap>
   
