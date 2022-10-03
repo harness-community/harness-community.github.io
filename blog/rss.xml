@@ -17,6 +17,8 @@
             <content:encoded><![CDATA[<p>Hey y'all amazing users of Harness Community!</p><p>Now, it's easy to submit your blog/articles and it's just a PR away!</p><p>Simply create a PR by adding Markdown files (or folders) to the <code>blog</code> directory in <a href="https://github.com/harness-community/harness-community.github.io" target="_blank" rel="noopener noreferrer">harness-community.github.io</a> repository!</p><p>A blog post folder can be convenient to co-locate blog post images abd can be displayed like below:</p><p><img loading="lazy" alt="Harness Community" src="/assets/images/harnesser-396d47c77cd8f7af31887571607a7ed0.png" width="2560" height="801" class="img_ev3q"></p><p>Oh and the other cool thing is, you can directly embed Youtube videos to your blog post and users can watch it on the same page and of course on a new tab if they want to;)</p><iframe width="640" height="480" src="https://www.youtube.com/embed/I4sbENt4IeM" frameborder="0" allow="autoplay; encrypted-media"></iframe><p>The blog supports tags as well! so refer the list of available tags and add it to your blog post!</p><p>Stay tuned for more improvements as this site is still in development phase:)</p><p>Any contributions are welcome!</p>]]></content:encoded>
             <category>community</category>
             <category>blog</category>
+            <category>newuser</category>
+            <category>ompragash</category>
         </item>
     </channel>
 </rss>

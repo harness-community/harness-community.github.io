@@ -20,5 +20,7 @@
         </author>
         <category label="community" term="community"/>
         <category label="blog" term="blog"/>
+        <category label="newuser" term="newuser"/>
+        <category label="ompragash" term="ompragash"/>
     </entry>
 </feed>
