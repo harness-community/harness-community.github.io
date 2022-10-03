@@ -2,7 +2,7 @@
 slug: welcome
 title: Welcome
 authors: [ompragash]
-tags: [community, blog]
+tags: [community, blog, newuser, ompragash]
 ---
 
 Hey y'all amazing users of Harness Community!
