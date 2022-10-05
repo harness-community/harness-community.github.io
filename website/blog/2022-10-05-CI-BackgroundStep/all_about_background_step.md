@@ -1,4 +1,9 @@
-# All about Background Step
+---
+slug: harness-ci-background-step
+title: Harness CI - Background Step
+authors: [krishikasingh]
+tags: [continuous-integration, integration-test]
+---
 
 ## Introduction
 
