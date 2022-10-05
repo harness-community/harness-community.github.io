@@ -30,7 +30,7 @@ Well service dependency did have some shortcomings which background step could s
 We discussed about some of the shortcomings of service dependency that background step could solve, let’s have a detailed look on three of the major differences between the two:
 
 
-- **Background step support commands** 
+### Background step support commands
 
 ![Background Step Settings](./background_step_settings.png)
 
