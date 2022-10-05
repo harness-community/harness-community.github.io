@@ -56,9 +56,6 @@ sudo apt-get remove docker docker-engine docker.io containerd runc
 
 Before installing docker engine we’ll first setup the repository & then update docker from the repository. To set-up the repository use the following command:
 
-Before installing docker engine we’ll first setup the repository & then update docker from the repository. To set-up the repository use the following command:
-
-
 ```bash
 $ sudo apt-get update
 
