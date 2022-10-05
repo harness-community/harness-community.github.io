@@ -30,6 +30,7 @@ For example: A pipeline can use the CI module of Harness to build, test & push c
 - Conclusion: Developer Feedback on Harness CIE
 - What’s Next?
 
+
 This tutorial implements creation of a pipeline over a github repository thus you’ll be required to create a github account & host a project over a repository. To create a new repository on github follow these steps:
 
 1. Move to the upper-right corner on the github webapp & use the  drop-down menu to select New repository option.
@@ -54,37 +55,8 @@ To get started with Docker Engine make sure you meet the [prerequisites](https:/
 sudo apt-get remove docker docker-engine docker.io containerd runc
 ```
 
-Before installing docker engine we’ll first setup the repository & then update docker from the repository. To set-up the repository use the following command:
+**[Check out this documentation to get your Docker Engine installed](https://docs.docker.com/engine/install/)**
 
-```bash
-$ sudo apt-get update
-
-$ sudo apt-get install \
-    ca-certificates \
-    curl \
-    gnupg \
-    lsb-release
-```
-
-We’ll then add the GPG key and setup the repository using the following command.
-
-```bash
-$ sudo mkdir -p /etc/apt/keyrings
-$ curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker
-```
-
-```bash
-$ echo \
-  "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu \
-  $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
-```
-
-Now to install Docker Engine we’ll update the apt package and install the latest version, containered & Docker compose.
-
-```bash
-$ sudo apt-get update
-$ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin
-```
 
 ### Installation of K8s Delegate for Harness Delegate
 
@@ -148,7 +120,16 @@ To create a new Pipeline in Harness CI follow the steps below:
 2. Move to the modules section and click on Continuous Integration & click on create a new pipeline.
 3. Enter the name for the pipeline & click on start. It usually takes 2-4 min for the provisioning stage of the pipeline.
 
-[Check out the demo here](https://drive.google.com/file/d/1e0mxjfgTxsVuZwYjQ2EKf82qI5Yj2Xgj/view?usp=sharing)
+<iframe
+    width="640"
+    height="480"
+    src="https://www.youtube.com/embed/251WU_OG0BI"
+    frameborder="0"
+    allow="autoplay; encrypted-media"
+    allowfullscreen
+>
+</iframe>
+
 
 The backbone of the pipeline is the build stage. This is where the user specifies the pipeline configuration details as the codebase to build, the infrastructure, the build workflow and all other additional components. The next step involves establishing the connection of the pipeline with the external resource. We use a ```connector``` in Harness CIE to develop this pipeline connection. The ```connector``` is a configurable object that automatically establishes connection to an external resource. 
 
@@ -249,8 +230,3 @@ Developers spend a lot of time into coding & solving the engineering problems. W
 & solves major issues of longer build and testing time. Harness CIE automatically scales up the build, test and deploy cycles. 
 
 The product focuses on developers & is completely developer-centric built around what a developer seeks to be the one stop solution for CI/CD.
- 
-
-
-
-
