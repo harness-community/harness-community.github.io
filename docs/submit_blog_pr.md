@@ -73,20 +73,20 @@ touch getting_started_drone.md
 ```
 Use `vim`, `VSCode` or any preferred editor to add contents to this file.
 
-11. A blog post folder can be convenient to co-locate blog post images and can be reference in the md file like below:
+11. A blog post folder can be convenient to co-locate blog post images and can be referenced in the blog md file like below:
 
 ```
 ![Harness Community](./harnesser.png)
 ```
 
-Final directory structure will look like this:
+12. Final directory structure will look like this:
 ```
 ├── 2022-10-01-drone
 │   ├── harnesser.png
 │   └── index.md
 ```
 
-12. Additionally, you can directly embed Youtube videos to your blog post. Refer this [article](https://support.google.com/youtube/answer/171780?hl=en) to get the embed url of a video and replace it with `YOUTUBE_EMBED_URL` below:
+13. Additionally, you can directly embed Youtube videos to your blog post. Refer this [article](https://support.google.com/youtube/answer/171780?hl=en) to get the embed url of a video and replace it with `YOUTUBE_EMBED_URL` below:
 
 ```
 <iframe
@@ -99,8 +99,6 @@ Final directory structure will look like this:
 >
 </iframe>
 ```
-
-### Test the changes locally by running Docusaurus
 
 ### Submit a PR
 
