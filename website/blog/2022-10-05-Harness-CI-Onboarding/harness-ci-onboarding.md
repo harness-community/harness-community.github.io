@@ -109,7 +109,7 @@ With this you will directly connect with your cluster from the terminal and thus
 wget -p https://app.harness.io/ -O /dev/null
 ```
 
-6. Now we’ll install the harness delegate using the harness-delegate.yaml file using this command
+6. Now we’ll install the harness delegate using the `harness-delegate.yaml` file using this command
 
 ```bash
 kubectl apply -f harness-delegate.yaml
