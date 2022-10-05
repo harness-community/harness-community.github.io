@@ -2,7 +2,7 @@
 slug: harness-ci-onboarding
 title: Harness CI Onboarding - Beginners Guide
 authors: [dhrubajyoti]
-tags: [continuous-integration, harness-ci, beginners-guide, getting-started]
+tags: [continuous-integration, harness-ci, beginners-guide, getting-started, cme]
 ---
 
 ## Introduction
