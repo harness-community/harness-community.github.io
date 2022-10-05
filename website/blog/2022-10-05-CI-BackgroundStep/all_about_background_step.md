@@ -47,7 +47,7 @@ Also ,the background step supports sequential approvals, that is when one step i
 
 To know more about templates visit [Templates](https://docs.harness.io/article/6tl8zyxeol-template).
            
-### Some important points:
+#### Some important points:
 
 - A Background step starts a service and then proceeds. For any later step that relies on the service,it is good practice to verify that the service is running before you send requests.
 
