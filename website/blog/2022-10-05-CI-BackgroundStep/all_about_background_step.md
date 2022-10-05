@@ -36,7 +36,7 @@ We discussed about some of the shortcomings of service dependency that backgroun
 
 Let’s say you are running some local server and you want to run some pre command or you want to fetch some file before running the server , there is an optional field called command in the background step. With the support of this optional functionality it acts as a run step now .
 
-- **Background step can be added anywhere in the pipeline execution** 
+### Background step can be added anywhere in the pipeline execution
 
 The background step can be added anywhere during the pipeline execution, thus making it flexible for the user.
 
