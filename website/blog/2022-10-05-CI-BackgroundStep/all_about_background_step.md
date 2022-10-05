@@ -40,7 +40,7 @@ Let’s say you are running some local server and you want to run some pre comma
 
 The background step can be added anywhere during the pipeline execution, thus making it flexible for the user.
 
-- **Background step supports Templatization** 
+### Background step supports Templatization
 
 The background step supports templates that can be reused across Pipelines which enhance developer productivity,reduce onboarding time,and enforce standardization across the teams. 
 Also ,the background step supports sequential approvals, that is when one step is completed then only you can move to the other step,whereas service dependency was running all the commands at the same time.
