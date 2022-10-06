@@ -32,8 +32,7 @@ For example: A pipeline can use the CI module of Harness to build, test & push c
 
 ### Environment
 
-- Ubuntu 22.04
-- Ubuntu 20.04
+- Ubuntu 20.04/22.04
 
 ### Requirements
 - Kubernetes cluster for Harness Delegate and build farm.
