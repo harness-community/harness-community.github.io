@@ -19,7 +19,7 @@ git clone https://github.com/GITUSER_NAME/harness-community.github.io.git
 git clone git@github.com:GITUSER_NAME/harness-community.github.io.git
 ```
 
-4. Change directory to your new cloned repository.
+4. Change the directory to your new cloned repository.
 
 ```bash
 cd harness-community.github.io
@@ -57,13 +57,13 @@ git checkout -b BRANCH_NAME
 
 > _Note:_ If you're planning to submit more than one blog, then create a PR for each one of them.
 
-9. Change to `blog` directory and create a blog directory with the format YYYY-MM-DD-NAME (eg: 2022-10-01-drone):
+9. Change to the `blog` directory and create a blog directory with the format YYYY-MM-DD-NAME (eg: 2022-10-01-drone):
 
 ```bash
 cd website/blog
 mkdir YYYY-MM-DD-NAME 
 ```
-This date is considered as a blog published date and displayed on the blog page. `NAME` can match the project/category of your blog.
+This date is considered a blog published date and is displayed on the blog page. `NAME` can match the project/category of your blog.
 
 10. Create a markdown file and add the blog contents in markdown format:
 
@@ -71,7 +71,7 @@ If you're writing a blog on "Getting started with Drone" then name the file `get
 ```bash
 touch getting_started_drone.md 
 ```
-Use `vim`, `VSCode` or any preferred editor to add contents to this file.
+Use `vim`, `VSCode`, or any preferred editor to add content to this file.
 
 11. A blog post folder can be convenient to co-locate blog post images and can be referenced in the blog md file like below:
 
@@ -86,7 +86,7 @@ Use `vim`, `VSCode` or any preferred editor to add contents to this file.
 │   └── index.md
 ```
 
-13. Additionally, you can directly embed Youtube videos to your blog post. Refer this [article](https://support.google.com/youtube/answer/171780?hl=en) to get the embed url of a video and replace it with `YOUTUBE_EMBED_URL` below:
+13. Additionally, you can directly embed Youtube videos in your blog post. Refer to this [article](https://support.google.com/youtube/answer/171780?hl=en) to get the embed URL of a video and replace it with `YOUTUBE_EMBED_URL` below:
 
 ```
 <div className="iframe-wrapper">
@@ -109,7 +109,7 @@ git add /path/to/changed/fileORfolder
 $ git commit -m "New Blog on Getting Started with Drone"
 ```
 
-2. Push the local developement branch to origin (your fork):
+2. Push the local development branch to the origin (your fork):
 ```bash
 git push -u origin BRANCH_NAME
 ```
