@@ -30,6 +30,22 @@ For example: A pipeline can use the CI module of Harness to build, test & push c
 - Conclusion: Developer Feedback on Harness CIE
 - What’s Next?
 
+### Environment
+
+- Ubuntu 22.04
+- Ubuntu 20.04
+
+### Requirements
+- Kubernetes cluster for Harness Delegate and build farm.
+- You'll need a Kubernetes cluster for Harness to use for the Harness Delegate and as a build farm. Ensure you have a cluster that meets the following requirements:
+- Number of pods: 3 (two pods for the Harness Delegate, the remaining pod for the build farm).
+- Machine type: ```4vCPU```
+- Memory: 16GB RAM. The build farm and Delegate requirements are low but the remaining memory is for Kubernetes, the Docker container, and other default services.
+- Networking: Outbound ```HTTPS``` for the Harness connection, and to connect to Docker Hub. Allow TCP port 22 for SSH.
+- Namespace: When you install the ```Harness Delegate```, it will create the ```harness-delegate``` namespace. You'll use the same namespace for the build farm.
+
+A **Kubernetes service account** with permission to create entities in the target namespace is required. The set of permissions should include ```list```, ```get```, ```create```, and ```delete``` permissions. In general, the cluster-admin permission or namespace admin permission is enough.
+For more information see [User-Facing Roles](https://kubernetes.io/docs/reference/access-authn-authz/rbac/#user-facing-roles) from Kubernetes.
 
 This tutorial implements creation of a pipeline over a github repository thus you’ll be required to create a github account & host a project over a repository. To create a new repository on github follow these steps:
 
