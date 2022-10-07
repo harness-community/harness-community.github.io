@@ -44,7 +44,7 @@ You can go through the following docs to get familiar with the basics as well as
 - [CD Sample Pipeline](https://github.com/harness-community/cd-pipeline-sample)
 - [CD how to](https://docs.harness.io/category/pfzgb4tg05-howto-cd)
 
-You can go through Harness docs as well as Harness University courses to get a clarity on Harness CD:
+You can go through Harness docs as well as Harness University courses to get clarity on Harness CD:
 
 - [Harness CD Docs](https://docs.harness.io/category/pfzgb4tg05-howto-cd)
 - [Harness CD University](https://university.harness.io/page/continuous-delivery)
