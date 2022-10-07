@@ -59,7 +59,7 @@ We recommend you to follow the below blog and implement your first feature flag�
 
 - [Implement your first Feature Flag](https://harness.io/blog/implement-your-first-feature-flag)
 
-There are some well curated courses as well as docs on Feature Flags which will help you get a much deeper insight about the product :
+There are some well curated courses as well as docs on Feature Flags that will help you get a much deeper insight into the product :
 
 - [Harness Feature Flags Docs](https://docs.harness.io/category/vjolt35atg-feature-flags)
 - [Harness Feature Flags University Course](https://university.harness.io/page/harness-feature-flags)
