@@ -111,7 +111,7 @@ You can go through the below docs and get through the basics of the product:
 - [Security Testing Orchestration docs](https://docs.harness.io/category/txlccquh5c-sto-category)
 
 # Software Delivery Foundations Certification
-You can also give Harness Software Delivery Foundations Certification, it will surely help you in getting a much deeper knowledge about the product.
+You can also give Harness Software Delivery Foundations Certification, it will surely help you in getting much deeper knowledge about the product.
 
 - [Software Delivery Foundations Certification](https://university.harness.io/page/certifications)
 
