@@ -1,6 +1,6 @@
 # Getting started with Harness Platform 
 
-Hey !! new to the **Harness Platform** , we are here to help you find your way around.
+Hey !! new to the **Harness Platform**, we are here to help you find your way around.
 
 Harness is the industry's first **Software Delivery Platform** to use AI to simplify your DevOps processes - CI, CD, Feature Flags, Cloud Costs, and much more.
 
