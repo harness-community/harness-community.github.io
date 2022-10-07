@@ -78,7 +78,7 @@ Harness provides curated docs as well as courses that can surely help you out wi
 
 Harness Service Reliability Management (SRM) module helps engineering and DevOps teams to balance feature velocity and bug fixes along with the stability and reliability needs in a production environment.
 
-You can refer to the below docs as well as some organised courses and get yourself onboard with the basics as well the usage of Service Reliability Management:
+You can refer to the below docs as well as some organized courses and get yourself onboard with the basics as well the usage of Service Reliability Management:
 
 - [Harness SRM Blogs](https://docs.harness.io/category/ko19u4brsv-howtos-service-reliability-management)
 
