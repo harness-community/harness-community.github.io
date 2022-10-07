@@ -124,4 +124,4 @@ You can also give Harness Software Delivery Foundations Certification, it will s
 ###  You can refer to the link below that will help you out in joining our community slack channel:
 - [Harness Slack Channel](https://medium.com/harness-engineering/if-you-have-any-questions-about-your-harness-ci-cd-journey-and-are-not-sure-where-to-start-we-cde400950796)
 
-### We at Harness are always there to help our community , feel free to slack us on our Community Slack channel (P.S don't forget to join the channel) .You can also reach out to us at [discourse](community.harness.io) .
+### We at Harness are always there to help our community, feel free to slack us on our Community Slack channel (P.S don't forget to join the channel). You can also reach out to us at [discourse](community.harness.io).
