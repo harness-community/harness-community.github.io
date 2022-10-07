@@ -92,7 +92,7 @@ You can go through below docs and learn more about chaos engineering and we reco
 
 - [Chaos Engineering Docs](https://university.harness.io/path/harness-chaos-engineering-practitioner)
 
-Harness has structured courses on Chaos Engineering and for those who want to try chaos engineering should surely give Harness Chaos Practitioner Exam:
+Harness has structured courses on Chaos Engineering and those who want to try chaos engineering should surely give the Harness Chaos Practitioner Exam:
 
 - [Harness Chaos Practitioner Exam](https://university.harness.io/path/harness-chaos-engineering-practitioner)
 
