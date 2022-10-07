@@ -82,7 +82,7 @@ You can refer to the below docs as well as some organised courses and get yourse
 
 - [Harness SRM Blogs](https://docs.harness.io/category/ko19u4brsv-howtos-service-reliability-management)
 
-Those who want to try out SRM , we recommend them to go through Harness SRM Practitioner exam it will help you in gaining much deeper product knowledge:
+Those who want to try out SRM, we recommend them to go through the Harness SRM Practitioner exam it will help you in gaining much deeper product knowledge:
 - [SRM Practitioner Exam](https://university.harness.io/path/srm-practitioner/srm-comprehensive-quiz)
 
 # Chaos Engineering 
