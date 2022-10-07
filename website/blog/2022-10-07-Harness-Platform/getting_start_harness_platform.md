@@ -55,7 +55,7 @@ Empower product development teams to quickly release new features, with minimal 
 
 **Feature flags** create private swim lanes for developer where they can ship the feature directly to customers and then control over who sees it , get feedback and turn on and off when needed.
 
-We recommend you to follow the below blog and implement your first feature flag , I am sure you are going to love the way it works :
+We recommend you follow the below blog and implement your first feature flag, I am sure you are going to love the way it works:
 
 - [Implement your first Feature Flag](https://harness.io/blog/implement-your-first-feature-flag)
 
