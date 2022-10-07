@@ -1,4 +1,4 @@
-# Getting started with Harness Platform 
+# Getting started with the Harness Platform 
 
 Hey !! new to the **Harness Platform**, we are here to help you find your way around.
 
