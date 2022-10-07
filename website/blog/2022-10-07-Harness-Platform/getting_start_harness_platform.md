@@ -37,7 +37,7 @@ Don't forget to through the docs as well as the courses:
 Harness CD is a Self-Service Continuous Delivery module that enables engineers to deploy on-demand without scripts, plugins, version dependencies, toil, downtime, and anger.
 
 In each Stage, you define what you want to deploy using Services, where you want to deploy it using Environments, and how you want to deploy it using Execution steps.
-You can refer to the docs below and get yourself familiar with some basics as well deployment tutorials.
+You can refer to the docs below and get familiar with some basics as well deployment tutorials.
 
 You can go through the following docs to get familar with the basics as well as deployment tutorials as well as sample CD pipeline for you to try out:
 
