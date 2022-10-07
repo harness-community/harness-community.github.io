@@ -102,7 +102,7 @@ Harness Security Testing Orchestration (STO) enables DevOps and DevSecOps teams 
 
 STO puts scanning directly into your Pipelines to ensure that vulnerabilities are caught and fixed before your products are ever released.
 
-You can surely have a look in the below video about the introduction as well as demo of STO:
+You can surely have a look in the below video about the introduction as well as a demo of STO:
 
 <iframe width="640" height="480" src="https://www.youtube.com/embed/dIT8utE_fvU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen > </iframe>
 
