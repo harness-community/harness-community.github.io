@@ -9,7 +9,7 @@ Let's get started with a short introductory video about the harness platform.
 
 <iframe width="640" height="480" src="https://www.youtube.com/embed/I4sbENt4IeM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen > </iframe>
 
-Hope you have got an idea how interesting is the Harness Platform.
+Hope you have got an idea of how interesting is the Harness Platform.
 
 Don't forget to [signup](https://app.harness.io/auth/#/signin) at Harness platform to play around with the product.
 
