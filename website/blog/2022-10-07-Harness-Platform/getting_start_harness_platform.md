@@ -27,7 +27,7 @@ Well let's get you started with your first pipeline, and we are sure you are goi
 - [Node Sample Pipeline](https://github.com/harness-community/nodejs-pipeline-samples)
 - [Go Sample Pipeline](https://docs.harness.io/article/x0d77ktjw8-ci-pipeline-quickstart)
 
-Don't forget to through the docs as well as courses:
+Don't forget to through the docs as well as the courses:
 
 - [Harness CI docs](https://docs.harness.io/category/zgffarnh1m-ci-category)
 - [Harness CI University](https://university.harness.io/page/continuous-integration)
