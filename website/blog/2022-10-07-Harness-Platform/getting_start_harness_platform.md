@@ -53,7 +53,7 @@ You can go through Harness docs as well as Harness University courses to get a c
 
 Empower product development teams to quickly release new features, with minimal risk. Test with a specified subset, or roll out to all customers.
 
-**Feature flags** create private swim lanes for developer where they can ship the feature directly to customers and then control over who sees it , get feedback and turn on and off when needed.
+**Feature flags** create private swim lanes for developers where they can ship the feature directly to customers and then control who sees it, get feedback and turn it on and off when needed.
 
 We recommend you follow the below blog and implement your first feature flag, I am sure you are going to love the way it works:
 
