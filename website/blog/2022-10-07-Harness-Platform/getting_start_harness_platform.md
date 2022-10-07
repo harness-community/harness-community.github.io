@@ -1,4 +1,9 @@
-# Getting started with the Harness Platform 
+---
+slug: harness-getting-started
+title: Getting started with the Harness Platform
+authors: [krishikasingh]
+tags: [harness, beginners-guide, getting-started, cme]
+---
 
 Hey !! new to the **Harness Platform**, we are here to help you find your way around.
 
