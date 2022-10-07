@@ -88,7 +88,7 @@ Those who want to try out SRM , we recommend them to go through Harness SRM Pra
 # Chaos Engineering 
 Chaos engineering is the discipline of experimenting with a software system in production to build confidence in the system's capability to withstand turbulent and unexpected conditions.
 
-You can go through below docs and learn more about chaos engineering and we recommend you to go through quick-start guide provided in the documentation and try out your first chaos experimentation:
+You can go through the below docs and learn more about chaos engineering, we recommend you go through the quick-start guide provided in the documentation and try out your first chaos experimentation:
 
 - [Chaos Engineering Docs](https://university.harness.io/path/harness-chaos-engineering-practitioner)
 
