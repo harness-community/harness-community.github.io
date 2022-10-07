@@ -21,7 +21,7 @@ Before starting we highly recommend you to go through some basic [key concepts](
 
 Harness CI simplifies the development and testing of code. In Harness Pipelines, you visually model your build and test processes as CI Stages. Each Stage includes steps for building, testing, and pushing your code.
 
-Well let's get you started with your first pipeline,and we are sure you are going to enjoy it , Harness have step by step guide for building different sample pipelines for different languages, you can try any one of them or all of them:
+Well let's get you started with your first pipeline, and we are sure you are going to enjoy it, Harness has step by step guide for building different sample pipelines for different languages, you can try any one of them or all of them:
 
 - [Python Sample Pipeline](https://github.com/harness-community/python-pipeline-samples)
 - [Node Sample Pipeline](https://github.com/harness-community/nodejs-pipeline-samples)
