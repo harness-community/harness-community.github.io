@@ -4,9 +4,9 @@ title: Beginners Guide to Git Connectors
 authors: [debabrata]
 tags: [continuous-integration, continuous-delivery, connectors, github]
 ---
-Are you confused with terminologies like Access Token, Access Control, Personal Access token while creating connectors? In this article we will discuss a few such terminologies on Harness platform, what they mean and what values should be entered against them. 
+Are you confused with terminologies like Access Token, Access Control, Personal Access Token while creating connectors? In this article we will discuss a few such terminologies on Harness platform, what they mean and what values should be entered against them. 
 
-So, in harness when you are using CI/CD to build or deploy we need access to your source code repository and the enterprise cloud for deployments and hence encrypted secrets are asked as input. In this blog I have focused on the common errors faced by beginners while trying to setup github connectors. 
+So, in Harness when you are using CI/CD to build or deploy we need access to your source code repository and the enterprise cloud for deployments and hence encrypted secrets are asked as input. In this blog I have focused on the common errors faced by beginners while trying to setup github connectors. 
 
 To begin with:
 
@@ -15,7 +15,7 @@ To begin with:
     ![Connector Location](connector-location.png)
 
 2. Now it’s time to give a name to your connector, but there’s some [entity name convention](https://docs.harness.io/article/7rsydu6iq2) which you need to follow while naming it. 
-Some Common errors observed here are :
+Some common errors observed here are :
 For ease of understanding across orgs and easy identification you can also add tags and give an apt description to your connector. 
 
     ![Overview](./overview.png)
@@ -24,7 +24,7 @@ For ease of understanding across orgs and easy identification you can also add t
     1. Account 
     2. Repository
 
-    What’s most intriguing and where first time user’s like me made a mistake is selecting the connection type,  so the suggested method is HTTP for first timers for ease of use and you can fetch this URL for your repository directly from the search bar of your browser or from local clone information available in the repository, which has the following format ``https://github.com/<account-name>`` for account URL’s type and ``https://github.com/<account-name>/<repository-name>`` for Repository URLs.   
+    What’s most intriguing and where first time user’s like me, made a mistake is selecting the connection type,  so the suggested method is HTTP for first timers for ease of use and you can fetch this URL for your repository directly from the search bar of your browser or from local clone information available in the repository, which has the following format ``https://github.com/<account-name>`` for account URL’s type and ``https://github.com/<account-name>/<repository-name>`` for Repository URLs.   
 
     ![Details](./details.png)
 
