@@ -1,5 +1,5 @@
 ---
-slug: harness-ci-onboarding
+slug: handbook-troubleshooting-guide
 title: A handbook on troubleshooting frequently encountered errors for the users on Harness CI
 authors: [dhrubajyoti]
 tags: [continuous-integration, harness-ci, troubleshooting-guide, cme]
@@ -24,7 +24,7 @@ Harness provides various sources & tools to easily troubleshoot frequently encou
 
 An early stage error use case is generally incorrect syntax. In such cases the pipeline returns an invalid yaml syntax message and does not start running incase any syntax error is detected.
 
-Edit ```pipeline YAML``` in the pipeline studio
+Edit ```pipeline.yaml``` in the pipeline studio
 
 The pipeline editor in the YAML view is recommended editing experience (rather than the graphical stage view). Major features in the editor includes:
 - Creation of connectors, secrets & pipelines from scratch
@@ -128,5 +128,3 @@ Incase the user is unable to troubleshoot the application error or pipeline exec
 1. Click the **Help** button in the Harness Manager
 2. Click **Submit a Ticket** or **Send Screenshot**
 3. Fill the pop up form and click **Submit Ticket** or **Send Feedback**
-
-
