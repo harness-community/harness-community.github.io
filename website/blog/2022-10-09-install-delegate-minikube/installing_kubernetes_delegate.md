@@ -1,5 +1,5 @@
 ---
-slug: git-connector
+slug: delegate-minikube-install
 title: Installing Harness Kubernetes(K8s) delegate via MiniKube
 authors: [krishikasingh]
 tags: [continuous-integration, continuous-delivery, connectors, harness, cme]
@@ -41,7 +41,7 @@ Please follow the correct naming convention for naming a delegate.
    - It will show error when you insert any special characters except ‘-’ and make  sure name should not start or end with a number 
   ![delegate](6.png)
 
-### NOTE:These sizing requirements are for the Delegate only.Your cluster will require more memory for Kubernetes, the operating system, and other services,preferably one should have double the memory and node present in the cluster than that of required for the delegate for smooth functioning.
+> NOTE:These sizing requirements are for the Delegate only.Your cluster will require more memory for Kubernetes, the operating system, and other services,preferably one should have double the memory and node present in the cluster than that of required for the delegate for smooth functioning.
 
 - Download the yaml file
   ![yaml](7.png)
