@@ -1,6 +1,6 @@
 ---
 slug: troubleshooting-harness-ci
-title: Troubleshooting Guide: Harness CI
+title: "Troubleshooting Guide: Harness CI"
 authors: [dhrubajyoti]
 tags: [continuous-integration, harness-ci, troubleshooting-guide, cme]
 ---
