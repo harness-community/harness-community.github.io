@@ -1,7 +1,7 @@
 ---
 slug: git-connector
 title: Installing Harness Kubernetes(K8s) delegate via MiniKube
-authors: [debabrata]
+authors: [krishikasingh]
 tags: [continuous-integration, continuous-delivery, connectors, harness, cme]
 ---
 ## Before we begin :
