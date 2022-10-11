@@ -10,52 +10,15 @@ The delegate connects all your artifacts,infrastructure,collaboration,verificati
 Below we have discussed the detailed explanation of how we can install Kubernetes(K8s) delegate.
 
 ## Prerequisites 
-- First check if virtualization is available in your local machine
+- Hypervisor technology (VirtualBox, VMWare, etc) is a mandate pre-requisite for Minikube and we have to choose the right one based on the platform we are on.
 
-  ```sysctl -a | grep -E --color 'machdep.cpu.features|VMX'```
+     [Prequisites for minikube](https://minikube.sigs.k8s.io/docs/start/#what-youll-need)
 
--  If you see VMX highlighted in your terminal then VT-x feature is enabled in your machine.
+- Installation section in the Minikube Getting Started documentation is well crafted and has steps for all Linux, Mac & Windows along with the architecture and installer type details and the user just has to choose the required details, get the commands and run them!
 
-![Terminal](./1.png)
+    [Installing Minikube](https://minikube.sigs.k8s.io/docs/start/).
 
-- In windows you can check via running following commands in the command prompt and see if virtualization is available:
-
-    ```systeminfo```
-
-- Install kubectl (kubernetes command line )  
-  * Mac - ```brew install kubectl```
-  * Windows - For windows you can refer to the following docs for detailed instructions regarding installation:
-   [Kubectl-Windows](https://kubernetes.io/docs/tasks/tools/install-kubectl-windows/)
-
-
-- Installing hypervisor -
- * You can install any 3 of these :
-   1. Hyperkit
-   2. VirtualBox
-   3. VMWare Fusion 
-     
-     Here we are using hyperkit 
- * Mac - ```brew install hyperkit```
- * Windows -
-
-   1. Install chocolatey package manager in windows using the following command:
-      ``` @"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -InputFormat None -ExecutionPolicy Bypass -Command "iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))" && SET "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"```
-
-   2. Installing Hyper-V in windows:
-      Check the following docs for detailed instruction regarding installation:
-      [Hyper-V in Windows](https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/quick-start/enable-hyper-v)
-
-- Installing minikube 
-   * Mac - ```brew install minikube``` 
-   * Windows -   Follow the following instructions for installation :
-    ![Wndows](./2.png)
-
-
-- Starting the Minikube
-
-   1. Mac and windows -  ```minikube start```
-   ![Mac and wind](3.png)
-
+- Minikube will download the required kubectl as part of the installation and configures it.
 
 ## Installing Harness Delegate
 
