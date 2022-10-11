@@ -2,7 +2,7 @@
 slug: git-connector
 title: Beginners Guide to Git Connectors
 authors: [debabrata]
-tags: [continuous-integration, continuous-delivery, connectors, github]
+tags: [continuous-integration, continuous-delivery, connectors, harness, cme]
 ---
 Are you confused with terminologies like Access Token, Access Control, and Personal Access Token while creating connectors? In this article, we will discuss a few such terminologies on the Harness platform, what they mean and what values should be entered against them. 
 
