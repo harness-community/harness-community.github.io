@@ -1,6 +1,6 @@
 ---
-slug: handbook-troubleshooting-guide
-title: A handbook on troubleshooting frequently encountered errors for the users on Harness CI
+slug: troubleshooting-harness-ci
+title: "Troubleshooting Guide: Harness CI"
 authors: [dhrubajyoti]
 tags: [continuous-integration, harness-ci, troubleshooting-guide, cme]
 ---
