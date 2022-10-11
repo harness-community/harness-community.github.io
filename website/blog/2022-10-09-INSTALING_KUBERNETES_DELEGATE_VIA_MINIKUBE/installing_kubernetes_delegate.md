@@ -58,5 +58,5 @@ Please follow the correct naming convention for naming a delegate.
 
 - You can also delete your delegate when no longer in use  
 
-## Note: Our Kubernetes Delegates are immutable , that is you can only create and delete the delegate but you can’t make any changes to them . 
+> Note: Our Kubernetes Delegates are immutable , that is you can only create and delete the delegate but you can’t make any changes to them. 
 
