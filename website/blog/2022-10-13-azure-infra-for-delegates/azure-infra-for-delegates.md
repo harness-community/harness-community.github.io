@@ -21,13 +21,14 @@ To, get started with the account creation go to Azure for Students.
 Step 1: Click on Activate Now
 
 
+![Activate Free Account](./activate-free-account.png)
 
 
 Step 2: After signing in with a Microsoft account, enter your educational email address:
 
 
 
-
+![Activate Azure for Students](./activate-azure-for-students.png)
 
 
 Step 3: Sign in to Azure Portal!
@@ -42,17 +43,18 @@ Step 1: Go to the [Azure Free Account Page](https://azure.microsoft.com/en-in/fr
 Step 2: Click on Start free to start the account creation procedure 
 
 
-
+![Azure Free Account](./azure_free_account_cc.png)
 
 
 Step 3: Fill in the following fields
 
-
-
+![Fill Details](./fill_cc_details.png)
 
 
 Step 4: Once your details are in click on Sign Up after you have accepted the terms and conditions. 
 
+
+![Sign Up Credit Card](./sign_up_cc.png)
 
 
 Step 5: Verify your phone number
@@ -67,6 +69,7 @@ Step 7: You can access your account using the [Azure Portal](https://portal.azur
 Azure portal is the web-based management console for Microsoft Azure. It provides a single, unified view of all your Azure resources, including compute, storage, networking, and security. You can use the Azure portal to deploy and manage your Azure resources and to monitor their health and usage. 
 
 
+![Azure Portal](./azure_portal.png)
 
 
 
@@ -80,17 +83,18 @@ The steps to create a cluster will be to use the Azure Kubernetes Service which 
 Step 1: Click on Create a Resource after signing in
 
 
-
+![Create a Resource](./create_a_resource.png)
 
 
 Step 2: Search Container and then click on `Kubernetes Service`
 
 
+![Find Kubernetes Service](./create_k8s_service.png)
 
 Step 3: Click on Create
 
 
-
+![Create Kubernetes Service](./creation_k8s_service.png)
 
 
 Step 4: On the Basics page, configure the following options for a Delegate to Run:
@@ -114,12 +118,12 @@ Now, when your cluster is ready you can connect to the Azure Cloud Shel on your 
 
 
 
-
+![Cloud Shell](./cloud_shell.png)
 
 
 Navigate to your cluster and click on Connect!
 
-
+![Connect to Cluster](./connect_to_aks.png)
 
 Follow the steps displayed on the right panel and then you can connect to your cluster! 
 
