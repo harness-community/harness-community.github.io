@@ -135,15 +135,15 @@ To create a new Pipeline in Harness CI follow the steps below:
 2. Move to the modules section and click on Continuous Integration & click on create a new pipeline.
 3. Enter the name for the pipeline & click on start. It usually takes 2-4 min for the provisioning stage of the pipeline.
 
+<div className="iframe-wrapper">
 <iframe
-    width="640"
-    height="480"
     src="https://www.youtube.com/embed/251WU_OG0BI"
     frameborder="0"
     allow="autoplay; encrypted-media"
     allowfullscreen
 >
 </iframe>
+</div>
 
 
 The backbone of the pipeline is the build stage. This is where the user specifies the pipeline configuration details as the codebase to build, the infrastructure, the build workflow and all other additional components. The next step involves establishing the connection of the pipeline with the external resource. We use a ```connector``` in Harness CIE to develop this pipeline connection. The ```connector``` is a configurable object that automatically establishes connection to an external resource. 
