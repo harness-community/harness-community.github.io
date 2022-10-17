@@ -89,15 +89,15 @@ Use `vim`, `VSCode`, or any preferred editor to add content to this file.
 13. Additionally, you can directly embed Youtube videos in your blog post. Refer to this [article](https://support.google.com/youtube/answer/171780?hl=en) to get the embed URL of a video and replace it with `YOUTUBE_EMBED_URL` below:
 
 ```
+<div className="iframe-wrapper">
 <iframe
-    width="640"
-    height="480"
     src="YOUTUBE_EMBED_URL"
     frameborder="0"
     allow="autoplay; encrypted-media"
     allowfullscreen
 >
 </iframe>
+</div>
 ```
 
 ### Submit a PR
