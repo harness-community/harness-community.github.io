@@ -2,7 +2,6 @@
 
 This guide helps you to deal with common issues and recommended solutions right from the pipeline creation to its execution. You will find them categorized into different sections. We will bring in more troubleshooting tips in our upcoming guide series.
 
-
 ### SERVICE
 
 **Issue:**
@@ -11,7 +10,7 @@ Can we use the same service name for dev, QA, and prod so that when I choose the
 
 **Solution:**
 
-We can use the same service to deploy in all environments, provided your infrastructure is templated/ parametrized and saved as input sets. While deploying the service, you can provide it as ([runtime input](https://ngdocs.harness.io/article/t57uzu1i41-propagate-and-override-cd-services)). 
+We can use the same service to deploy in all environments, provided your infrastructure is templated/ parametrized and saved as input sets. While deploying the service, you can provide it as [runtime input](https://ngdocs.harness.io/article/t57uzu1i41-propagate-and-override-cd-services). 
 
 
 ### CONNECTORS
@@ -23,7 +22,8 @@ When a user is unable to create a git connector, not sure what URL to pick don�
 
 **Solution:**
 
-Pattern URL looks like this: https://github.com/<account>/<repo>
+Pattern URL looks like this: ``` https://github.com<account>/<repo> ```
+
 
 **Issue:**
 
@@ -33,7 +33,7 @@ What happens if a user selects a Kubernetes cluster that has an INACTIVE delegat
 **Solution:**
 
 ![delegate-setup](./Delegate-setup.png)
-As per the screenshot above, make sure you verify the delegate if it is CONNECTED and you select the one that is active with ‘heartbeat’.
+As per the screenshot above, make sure you verify the delegate if it is **CONNECTED** and you select the one that is active with **‘heartbeat’**.
 
 **Issue:**
 
@@ -45,11 +45,11 @@ Check the git connector. Make sure the branch mentioned is available on the remo
 
 **Issue:**
 
-Hi, I had provisioned a Helm Connector as the Connector Artifact Server. I would like to get the details of the connector via Harness SDK. I am aware of the Github ([repo] (https://github.com/harness/harness-go-sdk)), however I cannot find the exact function I need to use,etc. Kindly help.
+Hi, I had provisioned a Helm Connector as the Connector Artifact Server. I would like to get the details of the connector via Harness SDK. I am aware of the [GitHub repo](https://github.com/harness/harness-go-sdk), however I cannot find the exact function I need to use,etc. Kindly help.
 
 **Solution:**
 
-If you want to get harness configurations or automate creation of resources you can use the ([REST APIs](https://harness.io/docs/api/tag/Connectors)).
+If you want to get harness configurations or automate creation of resources you can use the [REST APIs](https://harness.io/docs/api/tag/Connectors).
  
 **Issue:**
 
@@ -57,7 +57,7 @@ Example for a connector in Harness SDK
 
 **Solution:**
 
-Currently, the SDK doesn't have native support for connector resources but it can still be fetched using the config-as-code API's. If you know the path to the connector you can do something like ([this] (https://github.com/harness/harness-go-sdk/blob/main/harness/cd/cac_test.go#L80)).  If you already have a connector created you can find the path by going to Setup -> Config As Code (located in the top right-hand corner). From here you'll be able to see the path to where the connector's YAML configuration. For example, the path would be something like: Setup/Artifact Servers/Harness Docker Hub.yaml. I have attached a screenshot of it to look at.
+Currently, the SDK doesn't have native support for connector resources but it can still be fetched using the config-as-code API's. If you know the path to the connector you can do something like [this] (https://github.com/harness/harness-go-sdk/blob/main/harness/cd/cac_test.go#L80).  If you already have a connector created you can find the path by going to Setup -> Config As Code (located in the top right-hand corner). From here you'll be able to see the path to where the connector's YAML configuration. For example, the path would be something like: Setup/Artifact Servers/Harness Docker Hub.yaml. I have attached a screenshot of it to look at.
 
 Using the method I linked to, you'll be able to get back this YAML. There's not yet a native object in the SDK that you can easily parse this into, but you can create one yourself and deserialize it. Let me know if that helps in any way. (Screenshot attached for reference)
 
@@ -78,11 +78,11 @@ Check the chart version while adding them to manifest step  in the pipeline stag
 **Issue:**
 When I try to run the pipeline, if I select the “tags” dropdown to add a tag to the execution, I get the following error:
 
-Stage Deploy_Dev: Please make sure that your delegates are connected. Refer https://ngdocs.harness.io/article/re8kk0ex4k for more information on delegate Installation.
+Stage Deploy_Dev: Please make sure that your delegates are connected. Refer [docs](https://ngdocs.harness.io/article/re8kk0ex4k) for more information on delegate Installation.
 
 **Solution:**
 
-If you are using docker to pick your artifacts, then make sure you are defining the right path. Right URL: **https://registry.hub.docker.com/**. You can define tags by providing inputs at runtime or define in your yaml file ex: tag: “latest”.
+If you are using docker to pick your artifacts, then make sure you are defining the right path. Right URL: ``` https://registry.hub.docker.com/ ```. You can define tags by providing inputs at runtime or define in your yaml file ex: tag: “latest”.
 
 ### ENVIRONMENT
 
@@ -202,11 +202,11 @@ I am using Harness to spin a short lived kubernetes job. Is there anyway to fetc
 
 **Solution:**
 
-You can write a ([shell script to fetch](https://docs.harness.io/article/k5lu0u6i1i-using-shell-scripts)) logs for you as an output and then you can export/download them as deployment logs. 
+You can write a [shell script to fetch](https://docs.harness.io/article/k5lu0u6i1i-using-shell-scripts) logs for you as an output and then you can export/download them as deployment logs. 
 
 **Issue:**
 
-I was referring to this ([guide](https://docs.harness.io/article/knunou9j30-kubernetes-cd-quickstart)) in harness docs to learn about continuous delivery. On running the pipeline this error showed up. Does anyone know why this came and how to resolve it?
+I was referring to this [guide](https://docs.harness.io/article/knunou9j30-kubernetes-cd-quickstart) in harness docs to learn about continuous delivery. On running the pipeline this error showed up. Does anyone know why this came and how to resolve it?
 ![API-calls](./API-call.png)
 
 **Solution:**
@@ -219,7 +219,7 @@ Invalid request: Failed to get ConfigMap. Code: 403, message:{"kind":"Status","a
 ```
 
 It is clear from the above screenshot that API calls are failing due to permission.
-Check the permissions and try again and this ([doc](https://docs.harness.io/article/ttn8acijrz-versioning-and-annotations#releases_and_versioning)) should help.
+Check the permissions and try again and this [doc](https://docs.harness.io/article/ttn8acijrz-versioning-and-annotations#releases_and_versioning) should help.
 
 **Issue:**
 
@@ -235,7 +235,7 @@ else
 But Harness still treats this as an INFO message in the logs and does not fail the deployment. Any suggestions for how to fail a deployment through my bash script?
 
 **Solution:**
-You can refer to this ([doc](https://docs.harness.io/article/1fjrjbau7x-capture-shell-script-step-output#stopping_scripts_after_failures)), make sure you set -e works as syntactically the '[-f' part of the script is going to cause a failure.
+You can refer to this [doc](https://docs.harness.io/article/1fjrjbau7x-capture-shell-script-step-output#stopping_scripts_after_failures), make sure you set -e works as syntactically the '[-f' part of the script is going to cause a failure.
 
 **Issue:**
 How to pull zip files from artifacts in the cd stage?
@@ -255,31 +255,31 @@ Error while configuring the Linux server with ssh in harness.
 **Solution:**
 
 1. The connection issue is likely something to do with the URL. For an AWS Linux box it’s usually something like ec2-76-939-110-125.us-west-1.compute.amazonaws.com. For Azure, normally it would be something like **ssh -i ~/.ssh/id_rsa azureuser@10.111.12.123** so in Harness try it without the https:// scheme.:
-2. The SSH key in your screenshot looks like it’s in NextGen. You can also use a Shell Script step in ([NextGen](https://ngdocs.harness.io/article/k5lu0u6i1i-using-shell-scripts)). 
-3. In Harness CurrentGen you can deploy to any Linux VM using our ([SSH Deployment Type](https://docs.harness.io/article/5qh02lv090-define-your-traditional-ssh-target-infrastructure)), you can also use ([Azure VMSS](https://docs.harness.io/category/4o8zim2tfr-vmss-howtos)).
-4. You can deploy to a ([physical server](https://docs.harness.io/article/stkxmb643f-add-physical-data-center-cloud-provider)) 
-5. If you’re just looking to copy files as part of a 'workflow', you can use a ([Shell Script step](https://docs.harness.io/article/1fjrjbau7x-capture-shell-script-step-output))
-6. For artifact copy, as opposed to deployment, you can use the SSH Service and Copy Artifact Command 
+2. The SSH key in your screenshot looks like it’s in NextGen. You can also use a Shell Script step in [NextGen](https://ngdocs.harness.io/article/k5lu0u6i1i-using-shell-scripts). 
+3. In Harness CurrentGen you can deploy to any Linux VM using our [SSH Deployment Type](https://docs.harness.io/article/5qh02lv090-define-your-traditional-ssh-target-infrastructure), you can also use [Azure VMSS](https://docs.harness.io/category/4o8zim2tfr-vmss-howtos).
+4. You can deploy to a [physical server](https://docs.harness.io/article/stkxmb643f-add-physical-data-center-cloud-provider). 
+5. If you’re just looking to copy files as part of a 'workflow', you can use a [Shell Script step](https://docs.harness.io/article/1fjrjbau7x-capture-shell-script-step-output).
+6. For artifact copy, as opposed to deployment, you can use the SSH Service and Copy Artifact Command. 
 
 ### COMMON ISSUES
 
 **Issue:**
 
 Hi, need some help on the following questions:
-A] In harness cd while deploying helm chart [from a http helm chart], can I upload a custom values.yaml file which is at a different location?
-B] Installed an helm chart on an aks cluster using a harness but tried to run the helm list locally in my terminal unable to see the release name in the cmd output?
-C] In harness CD ,can i give a custom release name while installing the helm chart in the pipeline?
+1. In harness cd while deploying helm chart [from a http helm chart], can I upload a custom values.yaml file which is at a different location?
+2. Installed an helm chart on an aks cluster using a harness but tried to run the helm list locally in my terminal unable to see the release name in the cmd output?
+3. In harness CD ,can i give a custom release name while installing the helm chart in the pipeline?
 
 **Solution:**
 To answer your question:
-For Q.A] You can do that, refer to the section values.yaml
-For Q.B] By default the app is installed under the harness namespace so you need to add -n harness to the Helm command. Try:
+1. You can do that, refer to the section values.yaml
+2. By default the app is installed under the harness namespace so you need to add -n harness to the Helm command. Try:
 
 ```
 helm list -n harness
 ```
 
-For Q.C] yes, we can do that
+3. Yes, we can do that
 ![custom-release-name](./custom-release-name.png)
 
 **Issue:**
@@ -297,11 +297,12 @@ Harness can manage and orchestrate the Deployments out of the box without having
 We integrate with ArgoCD if you want that style of deployment with GitOps.
 Quick reference doc: 
 
-a)([Harness Argocd GitOps quickstart](https://ngdocs.harness.io/article/ptlvh7c6z2-harness-argo-cd-git-ops-quickstart))
-b)([Use kustomize for Kubernetes deployments](https://ngdocs.harness.io/article/98u2hvzj0t-use-kustomize-for-kubernetes-deployments))
+1. [Harness Argocd GitOps quickstart](https://ngdocs.harness.io/article/ptlvh7c6z2-harness-argo-cd-git-ops-quickstart)
+2. [Use kustomize for Kubernetes deployments](https://ngdocs.harness.io/article/98u2hvzj0t-use-kustomize-for-kubernetes-deployments)
 
 ### Need further help?
-Feel free to ask questions at community.harness.io or  join community slack to chat with our engineers in product-specific channels like:
-#continuous-delivery  Get support regarding the CD Module of Harness.
-#continuous-integration Get support regarding the CI Module of Harness.
 
+Feel free to ask questions at community.harness.io or  join community slack to chat with our engineers in product-specific channels like:
+[#continuous-delivery](https://join.slack.com/t/harnesscommunity/shared_invite/zt-y4hdqh7p-RVuEQyIl5Hcx4Ck8VCvzBw) Get support regarding the CD Module of Harness.
+
+[#continuous-integration](https://join.slack.com/t/harnesscommunity/shared_invite/zt-y4hdqh7p-RVuEQyIl5Hcx4Ck8VCvzBw) Get support regarding the CI Module of Harness.
