@@ -1,3 +1,10 @@
+---
+slug: troubleshooting-guide-for-Harness-CD-Part-I
+title: "Guide for common issues and recommended solutions for CD module - Part I"
+authors: [Shruthi Kini]
+tags: [continuous-delivery, Secrets, Service, Environment, Delegate, Template, common-issues, Argo-cd, harness-cd, troubleshooting-guide, cme]
+---
+
 ### INTRODUCTION
 
 This guide helps you to deal with common issues and recommended solutions right from the pipeline creation to its execution. You will find them categorized into different sections. We will bring in more troubleshooting tips in our upcoming guide series.
@@ -213,14 +220,13 @@ I was referring to this [guide](https://docs.harness.io/article/knunou9j30-kuber
 **Solution:**
 
 Harness uses its own ConfigMap for every deployment to store the release history in a Kubernetes cluster. This ConfigMap can be used for Rollback if deployment fails.
-Let’s say you are at your very first deployment(ConfigMap is yet to be created by Harness), now you want to make an API call to check if ConfigMap exists and say you get this error
+Let’s say you are at your very first deployment(ConfigMap is yet to be created by Harness), now you want to make an API call to check if ConfigMap exists and say you get this error.
 
 ```
 Invalid request: Failed to get ConfigMap. Code: 403, message:{"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"configmaps \"release-abcdef\" is forbidden: User \"system:serviceaccount:sa:harness\" cannot get resource \"configmaps\" in API group \"\" in the namespace \"ns\"","reason":"Forbidden","details":{"name":"release-abcdef","kind":"configmaps"},"code":403} 
 ```
 
-It is clear from the above screenshot that API calls are failing due to permission.
-Check the permissions and try again and this [doc](https://docs.harness.io/article/ttn8acijrz-versioning-and-annotations#releases_and_versioning) should help.
+It is clear from the above screenshot that API calls are failing due to permission. Check the permissions and try again and this [doc](https://docs.harness.io/article/ttn8acijrz-versioning-and-annotations#releases_and_versioning) should help.
 
 **Issue:**
 
@@ -272,6 +278,7 @@ Hi, need some help on the following questions:
 3. In harness CD ,can i give a custom release name while installing the helm chart in the pipeline?
 
 **Solution:**
+
 To answer your question:
 1. You can do that, refer to the section values.yaml
 2. By default the app is installed under the harness namespace so you need to add -n harness to the Helm command. Try:
