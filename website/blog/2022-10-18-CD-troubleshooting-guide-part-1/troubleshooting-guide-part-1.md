@@ -22,7 +22,7 @@ When a user is unable to create a git connector, not sure what URL to pick don�
 
 **Solution:**
 
-Pattern URL looks like this: ``` https://github.com<account>/<repo> ```
+Pattern URL looks like this: ``` https://github.com/<account>/<repo> ```
 
 
 **Issue:**
@@ -57,9 +57,10 @@ Example for a connector in Harness SDK
 
 **Solution:**
 
-Currently, the SDK doesn't have native support for connector resources but it can still be fetched using the config-as-code API's. If you know the path to the connector you can do something like [this] (https://github.com/harness/harness-go-sdk/blob/main/harness/cd/cac_test.go#L80).  If you already have a connector created you can find the path by going to Setup -> Config As Code (located in the top right-hand corner). From here you'll be able to see the path to where the connector's YAML configuration. For example, the path would be something like: Setup/Artifact Servers/Harness Docker Hub.yaml. I have attached a screenshot of it to look at.
+Currently, the SDK doesn't have native support for connector resources but it can still be fetched using the config-as-code API's. If you know the path to the connector you can do something like [this](https://github.com/harness/harness-go-sdk/blob/main/harness/cd/cac_test.go#L80).  If you already have a connector created you can find the path by going to Setup -> Config As Code (located in the top right-hand corner). From here you'll be able to see the path to where the connector's YAML configuration. For example, the path would be something like: Setup/Artifact Servers/Harness Docker Hub.yaml. I have attached a screenshot of it to look at.
 
 Using the method I linked to, you'll be able to get back this YAML. There's not yet a native object in the SDK that you can easily parse this into, but you can create one yourself and deserialize it. Let me know if that helps in any way. (Screenshot attached for reference)
+![Harness-sdk](./Harness-sdk.png)
 
 ### MANIFEST FILES
 
@@ -76,9 +77,9 @@ Check the chart version while adding them to manifest step  in the pipeline stag
 ### ARTIFACTS
 
 **Issue:**
-When I try to run the pipeline, if I select the “tags” dropdown to add a tag to the execution, I get the following error:
 
-Stage Deploy_Dev: Please make sure that your delegates are connected. Refer [docs](https://ngdocs.harness.io/article/re8kk0ex4k) for more information on delegate Installation.
+When I try to run the pipeline, if I select the “tags” dropdown to add a tag to the execution, I get the following error:
+``` Stage Deploy_Dev: Please make sure that your delegates are connected. Refer [docs](https://ngdocs.harness.io/article/re8kk0ex4k) for more information on delegate Installation. ```
 
 **Solution:**
 
@@ -131,18 +132,18 @@ When you enable editing mode and then try to navigate from yaml
 
 **Solution:**
 
-Make sure you complete all the steps in the stage. Incomplete Yaml will not be allowed to navigate or move further . 
+Make sure you complete all the steps in the stage. Incomplete Yaml will not be allowed to navigate or move further. 
 
 ### DELEGATE
 
 **Issue:**
 
-Does the Harness delegate running in K8s support node architecture using ARM64?
+Does the Harness delegate running in Kubernetes support node architecture using ARM64?
 
 **Solution:**
 
-We are not providing the binaries for the client tools in arm64, you would need to build your custom docker image to already have the arm64 binaries in client-tools, under the same path we expect. Then we would see they are already there and not overwrite them.
-To use arm64 would need to reverse engineer our docker image: create your own docker image that installs an arm64 jre to run the harness delegate jar and then pre-populate the client-tools directory with arm64 versions of the expected binarie.s
+1. We are not providing the binaries for the client tools in arm64, you would need to build your custom docker image to already have the arm64 binaries in client-tools, under the same path we expect. Then we would see they are already there and not overwrite them.
+2. To use arm64 would need to reverse engineer our docker image: create your own docker image that installs an arm64 jre to run the harness delegate jar and then pre-populate the client-tools directory with arm64 versions of the expected binarie.s
 Following binary list can be used:
 
 ```
@@ -162,7 +163,7 @@ kustomize/v4.0.0/kustomizen
 scm/36d92fd8/scm
 ```
 
-Note: We will be launching arm64 in couple of weeks
+**Note: We will be launching arm64 in couple of weeks**
 
 **Issue:**
 
@@ -180,7 +181,7 @@ kubectl describe pods -n <<namespace>>
 
 2. For delegate capability issues, it depends on the specific user’s use case. Ex: if you want to do a terraform deployment, few versions of terraform demand, terraform to be installed on the delegate pod. If you want to do a helm deployment using Helm V2, you will need to install Helm v2 and Tiller on the delegate pod.	
 
-3. Please review our docs on supported integrations. 
+3. Please review our docs on [supported integrations](https://docs.harness.io/article/1e536z41av-supported-platforms-and-technologies#sort=relevancy&f:@commonsource=[NextGen%20Docs). 
 
 ### TEMPLATE
 
@@ -190,7 +191,7 @@ Is there a way to do the equivalent of helm template command to render the templ
 
 **Solution:**
 
-We run a Helm Template when we do a Helm Chart Manifest type with a K8s Deployment Type, we don’t output that to a variable for a user to view, it can only be viewed in our execution logs. We don’t do this either for a Native Helm Deployment where we run a Helm Template and then perform the Helm install or helm upgrade and the output is only visible in the execution log
+We run a Helm Template when we do a Helm Chart Manifest type with a Kubernetes Deployment Type, we don’t output that to a variable for a user to view, it can only be viewed in our execution logs. We don’t do this either for a Native Helm Deployment where we run a Helm Template and then perform the Helm install or helm upgrade and the output is only visible in the execution log.
 
 ![helm-chart](./chart-manifest.png)
 
@@ -241,7 +242,7 @@ You can refer to this [doc](https://docs.harness.io/article/1fjrjbau7x-capture-s
 How to pull zip files from artifacts in the cd stage?
 
 **Solution:**
-We don’t support that yet in Next Generation. We only support containerized k8 deployments and native helm deployments in the platform. Please review our docs on supported integrations: Please review our docs on supported integrations. 
+We don’t support that yet in Next Generation. We only support containerized Kubernetes deployments and native helm deployments in the platform. Please review our docs on supported integrations: Please review our docs on supported integrations. 
 
 ### SECRETS
 
@@ -288,7 +289,7 @@ Can Harness CD deploy a helm chart and support kustomize patch on top of the hel
 
 **Solution:**
 
-1. We can fetch Helm charts for Kustomize Deployments. We can also apply Patches to those kustomize deployments. Harness Agent has its own Helm Client, we use that Helm client to query the deployed resources associated with the chart. With Kustomize and Helm charts, Harness wouldn’t deploy using Helm, we would deploy using the kustomize cli and we can apply patches. We would track the resources with the labels we apply to the K8s objects we deploy
+1. We can fetch Helm charts for Kustomize Deployments. We can also apply Patches to those kustomize deployments. Harness Agent has its own Helm Client, we use that Helm client to query the deployed resources associated with the chart. With Kustomize and Helm charts, Harness wouldn’t deploy using Helm, we would deploy using the kustomize cli and we can apply patches. We would track the resources with the labels we apply to the Kubernetes objects we deploy.
 2. You could run a helm list -To list all the helm charts, that’s no problem. However harness will manage the state and take care of rollback for you vs the helm client and tiller. We already know what the previous resources are so in event of deployment failure we can rollback to the last known healthy state. We have an Argo CD Integration where we allow you to leverage your existing ArgoCD cluster and manage it with Harness and Integrate it natively with Harness CI.
 
 **Harness can use ArgoCD for gitOps**
@@ -303,6 +304,7 @@ Quick reference doc:
 ### Need further help?
 
 Feel free to ask questions at community.harness.io or  join community slack to chat with our engineers in product-specific channels like:
-[#continuous-delivery](https://join.slack.com/t/harnesscommunity/shared_invite/zt-y4hdqh7p-RVuEQyIl5Hcx4Ck8VCvzBw) Get support regarding the CD Module of Harness.
 
 [#continuous-integration](https://join.slack.com/t/harnesscommunity/shared_invite/zt-y4hdqh7p-RVuEQyIl5Hcx4Ck8VCvzBw) Get support regarding the CI Module of Harness.
+
+[#continuous-delivery](https://join.slack.com/t/harnesscommunity/shared_invite/zt-y4hdqh7p-RVuEQyIl5Hcx4Ck8VCvzBw) Get support regarding the CD Module of Harness.
