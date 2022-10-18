@@ -27,7 +27,7 @@ Pattern URL looks like this: https://github.com/<account>/<repo>
 
 **Issue:**
 
-What happens if a user selects a Kubernetes cluster that has an INACTIVE delegate
+What happens if a user selects a Kubernetes cluster that has an INACTIVE delegate?
 ![k8-cluster-connector](./k8-connector.png)
 
 **Solution:**
