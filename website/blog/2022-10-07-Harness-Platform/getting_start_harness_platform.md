@@ -11,8 +11,15 @@ Harness is the industry's first **Software Delivery Platform** to use AI to simp
 
 Let's get started with a short introductory video about the harness platform.
 
-
-<iframe width="640" height="480" src="https://www.youtube.com/embed/I4sbENt4IeM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen > </iframe>
+<div className="iframe-wrapper">
+<iframe
+    src="https://www.youtube.com/embed/I4sbENt4IeM"
+    frameborder="0"
+    allow="autoplay; encrypted-media"
+    allowfullscreen
+>
+</iframe>
+</div>
 
 Hope you have got an idea of how interesting is the Harness Platform.
 
@@ -54,7 +61,7 @@ You can go through Harness docs as well as Harness University courses to get cla
 - [Harness CD Docs](https://docs.harness.io/category/pfzgb4tg05-howto-cd)
 - [Harness CD University](https://university.harness.io/page/continuous-delivery)
 
-# Feature Flags 
+# Feature Flags
 
 Empower product development teams to quickly release new features, with minimal risk. Test with a specified subset, or roll out to all customers.
 
@@ -68,7 +75,6 @@ There are some well curated courses as well as docs on Feature Flags that will h
 
 - [Harness Feature Flags Docs](https://docs.harness.io/category/vjolt35atg-feature-flags)
 - [Harness Feature Flags University Course](https://university.harness.io/page/harness-feature-flags)
-
 
 # Cloud Cost Management(CCM)
 
@@ -88,9 +94,11 @@ You can refer to the below docs as well as some organized courses and get yourse
 - [Harness SRM Blogs](https://docs.harness.io/category/ko19u4brsv-howtos-service-reliability-management)
 
 Those who want to try out SRM, we recommend them to go through the Harness SRM Practitioner exam it will help you in gaining much deeper product knowledge:
+
 - [SRM Practitioner Exam](https://university.harness.io/path/srm-practitioner/srm-comprehensive-quiz)
 
-# Chaos Engineering 
+# Chaos Engineering
+
 Chaos engineering is the discipline of experimenting with a software system in production to build confidence in the system's capability to withstand turbulent and unexpected conditions.
 
 You can go through the below docs and learn more about chaos engineering, we recommend you go through the quick-start guide provided in the documentation and try out your first chaos experimentation:
@@ -103,19 +111,28 @@ Harness has structured courses on Chaos Engineering and those who want to try ch
 
 # Security Testing Orchestration
 
-Harness Security Testing Orchestration (STO) enables DevOps and DevSecOps teams to left shift security testing. STO orchestrates scanning, intelligently deduplicating scanner output, prioritizing remediations, and enforcing governance into your Pipeline. 
+Harness Security Testing Orchestration (STO) enables DevOps and DevSecOps teams to left shift security testing. STO orchestrates scanning, intelligently deduplicating scanner output, prioritizing remediations, and enforcing governance into your Pipeline.
 
 STO puts scanning directly into your Pipelines to ensure that vulnerabilities are caught and fixed before your products are ever released.
 
 You can surely have a look in the below video about the introduction as well as a demo of STO:
 
-<iframe width="640" height="480" src="https://www.youtube.com/embed/dIT8utE_fvU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen > </iframe>
+<div className="iframe-wrapper">
+<iframe
+    src="https://www.youtube.com/embed/dIT8utE_fvU"
+    frameborder="0"
+    allow="autoplay; encrypted-media"
+    allowfullscreen
+>
+</iframe>
+</div>
 
 You can go through the below docs and get through the basics of the product:
 
 - [Security Testing Orchestration docs](https://docs.harness.io/category/txlccquh5c-sto-category)
 
 # Software Delivery Foundations Certification
+
 You can also give Harness Software Delivery Foundations Certification, it will surely help you in getting much deeper knowledge about the product.
 
 - [Software Delivery Foundations Certification](https://university.harness.io/page/certifications)
