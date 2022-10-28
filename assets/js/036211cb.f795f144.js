@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkharness_community=self.webpackChunkharness_community||[]).push([[798],{396:e=>{e.exports=JSON.parse('{"permalink":"/blog/tags/continuous-delivery","page":1,"postsPerPage":10,"totalPages":1,"totalCount":2,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
