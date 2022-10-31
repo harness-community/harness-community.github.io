@@ -108,7 +108,7 @@ Step 4: On the Basics page, configure the following options for a Delegate to Ru
     * Enter a Kubernetes cluster name, such as myEnviroment.
     * Select a Region for the AKS cluster
     * Select 99.5% for API server availability for lower cost
-* Go to Scale Method and make it to  Manual. Next change the Node Count to 2 as your account might not have sufficient resource!
+* Go to Scale Method and change it to Manual as your account might not have sufficient compute quota for autoscaling. Next change the Node Count to 2!
 ![image](https://user-images.githubusercontent.com/67012359/199068562-b0f39b58-9723-4cd7-84d6-33ee534ede20.png)
 
 
