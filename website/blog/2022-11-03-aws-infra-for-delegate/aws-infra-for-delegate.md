@@ -75,7 +75,7 @@ You will be able to see your cluster, after creation on the management console, 
     kube-system           Active   29h
     ```
 
-Also you could check for pods under your AWS cluster to find the delegate
+Also, you could check for pods under your AWS cluster to find the delegate
 
 ![delegate pods](website/blog/2022-11-03-aws-infra-for-delegate/delegate-pods.png)
 
