@@ -56,7 +56,7 @@ You will be able to see your cluster, after creation on the management console, 
 
 4. Next, install the Harness Delegate using the harness-delegate.yaml file you just downloaded. In the terminal connected to your cluster, run this command:
     
-    ```ssh
+    ```bash
     kubectl apply -f harness-delegate.yml
     ```
 5. The successful output would look like this
