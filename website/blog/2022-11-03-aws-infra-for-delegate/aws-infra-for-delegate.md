@@ -22,7 +22,7 @@ If you are a student please sign in using [AWS Educate](https://aws.amazon.com/e
 There are certain requirements in terms of [access and permissions](https://docs.harness.io/article/2132l9r4gt#permissions) and [memory resources](https://docs.harness.io/article/2132l9r4gt#compute_resources) for the delegate to function properly. 
 
 ### Creating a Cluster: 
-Considering you are a first time user, please consider the following specifications along with the above prerequisites, while creating a cluster:
+Considering you are a first-time user, please consider the following specifications along with the above prerequisites, while creating a cluster:
 - **Number of nodes:** minimum of 3.
 - **Machine type:** 4vCPU
 - **Memory:** 12GB RAM and 6GB Disk Space. 8GB RAM is for the Delegate. The remaining memory is for Kubernetes and containers.
