@@ -28,7 +28,7 @@ Considering you are a first-time user, please consider the following specificati
 - **Memory:** 12GB RAM and 6GB Disk Space. 8GB RAM is for the Delegate. The remaining memory is for Kubernetes and containers.
 - **Networking:** Outbound HTTPS for the Harness connection, and to connect to any container image repo. Allow TCP port 22 for SSH.
 
-For creating a cluster follow the steps mentioned in the [documentation](https://docs.aws.amazon.com/eks/latest/userguide/create-cluster.html), also you can take help of the demo in the video below. 
+For creating a cluster follow the steps mentioned in the [documentation](https://docs.aws.amazon.com/eks/latest/userguide/create-cluster.html), also you can take the help of the demo in the video below. 
 
 <div className="iframe-wrapper">
 <iframe
