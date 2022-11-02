@@ -11,7 +11,7 @@ This tutorial aims at enabling users to set up a Kubernetes cluster on AWS and w
 
 To avail free credits in AWS please follow the following resources:
 - [AWS Credits: How To Obtain Free Credits for Your Startup?](https://www.lastweekinaws.com/blog/how-to-get-free-aws-credits-4-tactics-to-use/)
-- https://www.argonaut.dev/blog/aws-free-credits
+- [How to Get Free AWS Credits: 4 Tactics to Use](https://www.argonaut.dev/blog/aws-free-credits)
 
 If you are a student please sign in using [AWS Educate](https://aws.amazon.com/education/awseducate/)
 
