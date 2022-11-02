@@ -16,7 +16,7 @@ To avail free credits in AWS please follow the following resources:
 If you are a student please sign in using [AWS Educate](https://aws.amazon.com/education/awseducate/)
 
 > **Note:**
->Under AWS Free tier the EKS service is not available, so it’s suggested to get some free credits and use them for EKS. 
+>Under the AWS Free tier the EKS service is not available, so it’s suggested to get some free credits and use them for EKS. 
 
 ### Pre-requisites:
 There are certain requirements in terms of [access and permissions](https://docs.harness.io/article/2132l9r4gt#permissions) and [memory resources](https://docs.harness.io/article/2132l9r4gt#compute_resources) for the delegate to function properly. 
