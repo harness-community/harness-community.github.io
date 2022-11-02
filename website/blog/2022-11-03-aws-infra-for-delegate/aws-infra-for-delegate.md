@@ -65,8 +65,8 @@ You will be able to see your cluster, after creation on the management console, 
 
 6. To validate run the following command and check.
 
-    ```ssh
-    deba@Debabrata Panigrahi Downloads % kubectl get namespaces
+    ```bash
+    # kubectl get namespaces
     NAME                  STATUS   AGE
     default               Active   29h
     harness-delegate-ng   Active   24m
