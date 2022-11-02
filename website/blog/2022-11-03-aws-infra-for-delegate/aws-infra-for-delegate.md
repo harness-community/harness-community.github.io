@@ -13,7 +13,7 @@ To avail free credits in AWS please follow the following resources:
 - https://www.lastweekinaws.com/blog/how-to-get-free-aws-credits-4-tactics-to-use/
 - https://www.argonaut.dev/blog/aws-free-credits
 
-If you are a student please sign-in using [AWS Educate](https://aws.amazon.com/education/awseducate/)
+If you are a student please sign in using [AWS Educate](https://aws.amazon.com/education/awseducate/)
 
 > **Note:**
 >Under AWS Free tier the EKS service is not available, so it’s suggested to get some free credits and use them for EKS. 
