@@ -108,13 +108,16 @@ Step 4: On the Basics page, configure the following options for a Delegate to Ru
     * Enter a Kubernetes cluster name, such as myEnviroment.
     * Select a Region for the AKS cluster
     * Select 99.5% for API server availability for lower cost
+* Go to Scale Method and change it to Manual as your account might not have sufficient compute quota for autoscaling. Next change the Node Count to 2
+![image](https://user-images.githubusercontent.com/67012359/199068562-b0f39b58-9723-4cd7-84d6-33ee534ede20.png)
+
 
 Step 5: Start the resource validation by clicking Review + Create on your portal. Once validated, click Create to begin the process of cluster creation. Wait a few minutes for the cluster to deploy.
 
 
 ## Connect to your cluster
 
-Now, when your cluster is ready you can connect to the Azure Cloud Shel on your portal and open the terminal!
+Now, when your cluster is ready you can connect to the Azure Cloud Shel on your portal and open the terminal
 
 
 
