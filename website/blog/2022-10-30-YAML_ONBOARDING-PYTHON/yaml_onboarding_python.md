@@ -1,10 +1,13 @@
-# Python Yaml Onboarding for beginners 
+---
+slug: pyrhon-yaml-onboarding
+title: Python Yaml Onboarding for beginners 
+authors: [krishikasingh]
+tags: [continuous-integration, yaml, python, cme]
+---
 
 In this blog ,we are going to talk about how easily you can set up your pipeline using YAML.
 
-
 Harness includes visual and YAML editors for creating and editing Pipelines, Triggers, Connectors, and other entities. Everything you can do in the visual editor you can also do in YAML.
-
 
 For detailed information about using Harness YAML visit [Harness YAML Reference](https://docs.harness.io/article/xs2dfgq7s2-yaml-reference-cd-pipeline) and [Harness YAML Quickstart](https://docs.harness.io/article/1eishcolt3-harness-yaml-quickstart).
 
@@ -253,9 +256,6 @@ Before running the pipeline, let's create a GitHub and Docker connector.
          Under `Connect to the provider`-> Select `Connect through Harness Platform.
 
          Select `Save and Continue.
-         
-            
-
          
      For your reference you can also check out this video on our Harness Community YouTube channel:
 
