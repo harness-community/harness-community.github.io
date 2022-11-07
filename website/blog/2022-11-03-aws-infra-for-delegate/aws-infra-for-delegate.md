@@ -1,6 +1,6 @@
 ---
 slug: aws-infra-for-delegates
-title: Provision Azure Infrastructure for Delegates
+title: Provision AWS Infrastructure for Delegates
 authors: [debabrata]
 tags: [continuous-integration, continuous-delivery, delegates, harness, cme]
 ---
@@ -42,17 +42,17 @@ For creating a cluster follow the steps mentioned in the [documentation](https:/
 
 You will be able to see your cluster, after creation on the management console, like the picture below. 
 
-![AWS Dashboard](website/blog/2022-11-03-aws-infra-for-delegate/aws-dashboard.png)
+![AWS Dashboard](./aws-dashboard.png)
 
 ### Authenticate to the cluster:
 1. Open a terminal and navigate to where the Delegate file is located.
 2. You will connect to your cluster using the terminal so you can simply run the YAML file on the cluster.
 
-![AWS Access](website/blog/2022-11-03-aws-infra-for-delegate/aws-access.png)
+![AWS Access](./aws-access.png)
 
 3. In the same terminal, log into your Kubernetes cluster. In most platforms, you select the cluster, click Connect, and copy the access command.
 
-![AWS Configure](website/blog/2022-11-03-aws-infra-for-delegate/aws-configure.png)
+![AWS Configure](./aws-configure.png)
 
 4. Next, install the Harness Delegate using the harness-delegate.yaml file you just downloaded. In the terminal connected to your cluster, run this command:
     
@@ -61,7 +61,7 @@ You will be able to see your cluster, after creation on the management console, 
     ```
 5. The successful output would look like this
 
-![delegate-install](website/blog/2022-11-03-aws-infra-for-delegate/delegate-install.png)
+![delegate-install](./delegate-install.png)
 
 6. To validate run the following command and check.
 
@@ -77,7 +77,7 @@ You will be able to see your cluster, after creation on the management console, 
 
 Also, you could check for pods under your AWS cluster to find the delegate
 
-![delegate pods](website/blog/2022-11-03-aws-infra-for-delegate/delegate-pods.png)
+![delegate pods](./delegate-pods.png)
 
 7. Now that your cluster is operational, you may add resources to it by using the kubectl utility, as you can see. Please use [Start Deploying in 5 Minutes with a Delegate-first Approach](https://www.harness.io/technical-blog/deploy-in-5-minutes-with-a-delegate-first-approach) tutorial to install Delegate at this time and move forward with creating your CI/CD pipeline.
 
@@ -87,11 +87,11 @@ Also, you could check for pods under your AWS cluster to find the delegate
 
 8. You could check about your delegates on the dashboard under Project Setup.
 
-![check-delegate](website/blog/2022-11-03-aws-infra-for-delegate/check-delegate.png)
+![check-delegate](./check-delegate.png)
 
 9. The delegate details would look something similar to this
 
-![delegate-available](website/blog/2022-11-03-aws-infra-for-delegate/delegate-available.png)
+![delegate-available](./delegate-available.png)
 
 > **Note:**
 > Apart from the above mentioned way, there are other ways to install delegate on AWS, for eg using EC2. 
