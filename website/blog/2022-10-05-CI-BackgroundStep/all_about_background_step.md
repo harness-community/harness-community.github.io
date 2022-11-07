@@ -1,4 +1,9 @@
-# All about Background Step
+---
+slug: harness-ci-background-step
+title: Harness CI - Background Step
+authors: [krishikasingh]
+tags: [continuous-integration, integration-test]
+---
 
 ## Introduction
 
@@ -25,24 +30,24 @@ Well service dependency did have some shortcomings which background step could s
 We discussed about some of the shortcomings of service dependency that background step could solve, let’s have a detailed look on three of the major differences between the two:
 
 
-- **Background step support commands** 
+### Background step support commands
 
 ![Background Step Settings](./background_step_settings.png)
 
 Let’s say you are running some local server and you want to run some pre command or you want to fetch some file before running the server , there is an optional field called command in the background step. With the support of this optional functionality it acts as a run step now .
 
-- **Background step can be added anywhere in the pipeline execution** 
+### Background step can be added anywhere in the pipeline execution
 
 The background step can be added anywhere during the pipeline execution, thus making it flexible for the user.
 
-- **Background step supports Templatization** 
+### Background step supports Templatization
 
 The background step supports templates that can be reused across Pipelines which enhance developer productivity,reduce onboarding time,and enforce standardization across the teams. 
 Also ,the background step supports sequential approvals, that is when one step is completed then only you can move to the other step,whereas service dependency was running all the commands at the same time.
 
 To know more about templates visit [Templates](https://docs.harness.io/article/6tl8zyxeol-template).
            
-### Some important points:
+#### Some important points:
 
 - A Background step starts a service and then proceeds. For any later step that relies on the service,it is good practice to verify that the service is running before you send requests.
 

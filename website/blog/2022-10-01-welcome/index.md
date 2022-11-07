@@ -17,15 +17,15 @@ A blog post folder can be convenient to co-locate blog post images abd can be di
 
 Oh and the other cool thing is, you can directly embed Youtube videos to your blog post and users can watch it on the same page and of course on a new tab if they want to;)
 
+<div className="iframe-wrapper">
 <iframe
-    width="640"
-    height="480"
     src="https://www.youtube.com/embed/I4sbENt4IeM"
     frameborder="0"
     allow="autoplay; encrypted-media"
     allowfullscreen
 >
 </iframe>
+</div>
 
 The blog supports tags as well! so refer the list of available tags and add it to your blog post!
 
