@@ -18,7 +18,7 @@ Let’s now deepdive into the step-by-step tutorial, wherein we will now use the
 Start with the **build module**, and give it a name test, make sure to keep the clone codebase slider “off” as it is not required in this example.
 
 #### Step-2:
-Now let’s move to the next part of the pipeline, which is to select the infrastructure and select **harness hosted builds** under the same.
+Now let’s move to the next part of the pipeline, which is to select the infrastructure and select **Harness Hosted Builds** under the same.
 
 #### Step-3:
 Moving on to the execution step, let’s add a **Run Step** and name it as “testrun” and under the container registry add the already created Docker Connector, and under the image add the “rvancea/maven-chrome-jdk8”. Now let’s add a shell command to run `mvn clean compile -DsuiteXmlFile=Batch1 test`  and apply the changes. 
