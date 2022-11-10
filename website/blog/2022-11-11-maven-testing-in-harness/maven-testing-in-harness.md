@@ -10,7 +10,7 @@ tags: [continuous-integration, harness, maven, cme]
 In this tutorial, we will go through a step-by-step example, on how to use the Harness CI for Maven testing. 
 
 #### Pre-Requisite:
-[Docker Connector](https://docs.harness.io/article/u9bsd77g5a-docker-registry-connector-settings-reference#docker-connector-settings-reference) to fetch public docker images of [maven chrome jdk8](https://hub.docker.com/r/rvancea/maven-chrome-jdk8)
+[Docker Connector](https://docs.harness.io/article/u9bsd77g5a-docker-registry-connector-settings-reference#docker-connector-settings-reference) to fetch public Docker images of [maven chrome jdk8](https://hub.docker.com/r/rvancea/maven-chrome-jdk8)
 
 Let’s now deepdive into the step-by-step tutorial, wherein we will now use the Harness SaaS platform to set-up the maven testing:
 
