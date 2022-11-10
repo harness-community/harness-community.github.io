@@ -1,5 +1,5 @@
 ---
-slug: maven-testing-in-harness
+slug: maven-testing-in-harness-ci
 title: Using Harness CI for Maven Testing
 authors: [debabrata]
 tags: [continuous-integration, harness, maven, cme]
