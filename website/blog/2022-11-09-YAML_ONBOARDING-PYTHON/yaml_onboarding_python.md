@@ -260,9 +260,9 @@ Before running the pipeline, let's create a GitHub and Docker connector.
       Select `Save and Continue.
 
   For your reference you can also check out this video on our Harness Community YouTube channel:
-    <div className="iframe-wrapper">
+   
      <iframe src="https://www.youtube.com/embed/zJ--nKMCdZQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen > </iframe>
-     </div>
+     
 
 - Create a Docker Repository
 
@@ -320,6 +320,6 @@ After successful completion and execution of all the steps you will see somethin
 
 This article explained YAML based onboarding process, if you want to try out Harness UI based onboarding do check out this tutorial:-
 
-<div className="iframe-wrapper">
+
 <iframe src="https://www.youtube.com/embed/r1GLYtOmJmM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen > </iframe>
-</div>
+
