@@ -1,4 +1,4 @@
-﻿---
+---
 slug: Comparitive-study-of-different-deployment-strategies-and-their-impact
 title: Comparitive study of different deployment strategies and their impact
 authors: [Shruthi Kini]
@@ -68,4 +68,5 @@ Choosing a deployment strategy totally depends on factors like the environment, 
 Feel free to ask questions at [community.harness.io](https://community.harness.io/c/harness/7) or [join community slack](https://join.slack.com/t/harnesscommunity/shared_invite/zt-y4hdqh7p-RVuEQyIl5Hcx4Ck8VCvzBw) to chat with our engineers in product-specific channels like:
 
 [#continuous-integration](https://join.slack.com/t/harnesscommunity/shared_invite/zt-y4hdqh7p-RVuEQyIl5Hcx4Ck8VCvzBw) Ask questions/help other users regarding CI Module of Harness.
+
 [#continuous-delivery](https://join.slack.com/t/harnesscommunity/shared_invite/zt-y4hdqh7p-RVuEQyIl5Hcx4Ck8VCvzBw) Ask questions/help other users regarding CD Module of Harness.
