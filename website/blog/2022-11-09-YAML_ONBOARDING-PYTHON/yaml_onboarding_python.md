@@ -224,9 +224,9 @@ Before running the pipeline, let's create a GitHub and Docker connector.
 
       For reference, you can also check out this video on our Harness Community youtube channel
       <div className="iframe-wrapper">
-      <iframe src="https://www.youtube.com/embed/0UHBK4vfzcI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen > </iframe>
-      </div>
-      To develop more understanding of Connectors [check out the docs here](https://docs.harness.io/category/o1zhrfo8n5-connectors)
+       <iframe src="https://www.youtube.com/embed/0UHBK4vfzcI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen > </iframe>
+       </div>
+       To develop more understanding of Connectors [check out the docs here](https://docs.harness.io/category/o1zhrfo8n5-connectors)
 
 - Create a Docker Connector
 
@@ -260,10 +260,9 @@ Before running the pipeline, let's create a GitHub and Docker connector.
       Select `Save and Continue.
 
   For your reference you can also check out this video on our Harness Community YouTube channel:
-   
+<div className="iframe-wrapper">
      <iframe src="https://www.youtube.com/embed/zJ--nKMCdZQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen > </iframe>
-     
-
+</div>
 - Create a Docker Repository
 
   1. Log in to [Docker Hub](https://hub.docker.com)
@@ -319,7 +318,6 @@ After successful completion and execution of all the steps you will see somethin
 ![](./run.png)
 
 This article explained YAML based onboarding process, if you want to try out Harness UI based onboarding do check out this tutorial:-
-
-
+<div className="iframe-wrapper">
 <iframe src="https://www.youtube.com/embed/r1GLYtOmJmM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen > </iframe>
-
+</div>
