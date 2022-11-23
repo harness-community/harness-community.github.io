@@ -82,4 +82,4 @@ At Harness, we have been working on dashboards that allow you to identify bottl
 
 This blog explained how [Harness CCM](https://docs.harness.io/article/rr85306lq8-continuous-efficiency-overview) is an active cloud cost solution, and how it’s at sentry duty with rising cloud cost. To know more about your cloud spending and set up your own cloud cost petrol unit, visit [harness.io](https://harness.io/products/cloud-cost).
 
-In case you are stuck somewhere, need some assistance or want to talk about cloud cost in general, join #cloud-cost-management channel in [harness slack community.](https://join.slack.com/t/harnesscommunity/shared_invite/zt-1jdk336xf-uTvxK5Dg6fElGKTsPv3SUw)
+In case you are stuck somewhere, need some assistance, or want to talk about cloud cost in general, join #cloud-cost-management channel in [Harness Community Slack](https://join.slack.com/t/harnesscommunity/shared_invite/zt-1jdk336xf-uTvxK5Dg6fElGKTsPv3SUw).
