@@ -50,7 +50,7 @@ You can adjust sliders and groups on the dashboard to filter data as per require
 
 ### Auto Stopping Rules
 
-[Cloud AutoStopping](https://docs.harness.io/category/biypfy9p1i-create-auto-stopping-rules) solves the problems of idle cloud wastage and automates cost savings. These rules are can now be setup for your non-production workloads. Auto Stopping shut down compute resources which are idle for a set duration. So, it automatically detects this idle time and shuts down on demand resources. 
+[Cloud AutoStopping](https://docs.harness.io/category/biypfy9p1i-create-auto-stopping-rules) solves the problems of idle cloud wastage and automates cost savings. These rules can now be setup for your non-production workloads. Auto Stopping shut down compute resources that are idle for a set duration. So, it automatically detects this idle time and shuts down on-demand resources. 
 
 You can also run non-production workloads on spot instances to save cost up to 90%. These spot instance are dynamically orchestrated for the same infrastructure. As a result, switch between spot instances are without any interruptions. Spot instances are terminated when not in use and are automatically started when there is traffic or usage requests.
 
