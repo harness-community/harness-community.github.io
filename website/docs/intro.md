@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-> _Note: This site is still work in progress!_
+# Quickstart 
 
 # Communicating with Harness Community
 
