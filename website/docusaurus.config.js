@@ -100,6 +100,10 @@ const config = {
                 href: 'https://fast.wistia.net/embed/channel/qauwxlogqz?wvideo=rd23ssxq3k&wchannelid=qauwxlogqz&wmediaid=rd23ssxq3k',
               },
               {
+                label: 'Developer Hub',
+                href: 'https://developer.harness.io',
+              },
+              {
                 label: 'Contact Us',
                 href: 'https://harness.io/company/contact-us',
               },
