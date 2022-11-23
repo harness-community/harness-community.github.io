@@ -1,5 +1,5 @@
 ---
-slug: pyrhon-yaml-onboarding
+slug: python-yaml-onboarding
 title: Python Yaml Onboarding for beginners
 authors: [krishikasingh]
 tags: [continuous-integration, yaml, python, cme]
