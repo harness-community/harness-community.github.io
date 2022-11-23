@@ -103,6 +103,10 @@ const config = {
                 label: 'Contact Us',
                 href: 'https://harness.io/company/contact-us',
               },
+              {
+                label: 'Developer Hub',
+                href: 'https://developer.harness.io',
+              },
             ],
           },
           {
