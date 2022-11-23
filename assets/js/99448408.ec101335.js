@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkharness_community=self.webpackChunkharness_community||[]).push([[4162],{9702:s=>{s.exports=JSON.parse('{"label":"cloud-cost","permalink":"/blog/tags/cloud-cost","allTagsPath":"/blog/tags","count":1}')}}]);
