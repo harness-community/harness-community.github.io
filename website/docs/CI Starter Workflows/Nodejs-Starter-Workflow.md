@@ -2,7 +2,7 @@
 
 ## Node Example
 
-This guide covers configuring continuous integration pipelines for a Node starter workflow in Harness CI. If you’re new to Harness CI please read our Onboarding Guide and Nodejs Sample Pipeline Build Configuration Guides first.
+This guide covers configuring continuous integration pipelines for a Node starter workflow in Harness CI. If you’re new to Harness CI, start with Onboarding Guide and Nodejs Sample Pipeline Build Configuration Guides.
 
 **Github Repository: [Click Here](https://github.com/harness-community/nodejs-pipeline-samples)**
 
