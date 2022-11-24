@@ -1,4 +1,4 @@
-﻿---
+---
 slug: Harness-Input-Sets-and-Overlay
 title: "Harness Input sets and Overlay" 
 authors: [Shruthi Kini]
