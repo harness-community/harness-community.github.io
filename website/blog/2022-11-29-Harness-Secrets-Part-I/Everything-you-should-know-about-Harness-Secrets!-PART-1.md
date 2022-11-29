@@ -1,10 +1,18 @@
-﻿## Introduction to Harness Secrets
+---
+slug: Everything-you-should-know-about-Harness-Secrets!-PART-1
+title: "Everything you should know about Harness Secrets!- PART-1"
+authors: [Shruthi Kini]
+tags: [Applications, Environment, Delegate, cme]
+---
+
+### Introduction to Harness Secrets
 
 In this blog, let us understand Harness Secrets, how they are stored along with different scenarios, we can use secrets. 
 
 ### What are Harness Secrets and Secret Management?
 
 **Harness Secrets**
+
 Generally, secrets are credentials, passwords, config files or keys that you will need to deploy your software across different environments.
 
 Harness stores secrets in the Secret Manager of your choice and secrets exist in 2 forms:
@@ -14,6 +22,7 @@ Harness stores secrets in the Secret Manager of your choice and secrets exist in
 Secrets and Secret Manager can be scoped to the app, environment type and environment or a delegate. User groups can be given access to read and manage Secrets and Secret Manager. You can reference the secrets in Harness connectors, scripts, commands, service specifications once they are added.
 
 **Harness Secret Management**
+
 Harness provides a built-in Secret Management to store the encrypted secrets and use them in Harness applications. Secrets are always encrypted when they are stored and decrypted when they are needed.
 
 Moreover, you can view what secrets have been used across the application, who made the changes, and how it was used. It is the delegate in the client’s private network that can access the key management system and not the Harness Manager and is not publicly accessible.
@@ -27,7 +36,7 @@ For further details on Harness Support platforms, methodologies and related tech
  
 ### Let’s dive in!
 
-**- Add a Secret Manager**
+**1. Add a Secret Manager**
 
 Let’s follow the steps!
 Step 1: Once you sign up and on app.harness.io Next-Gen page, go to **Account Settings** -> **Organization** -> Create a **+New Organization** -> Create a **Project** -> Go to **Project Setup** -> **Connectors** -> Create **+New Connector** -> Select **Secret Managers** of your choice.
@@ -36,13 +45,16 @@ Step 2: Once you are in! Just fill in the account access information for the new
 
 Once the setup is ready, you will now be able to store the encrypted secrets of Cloud Provider/Connector secret fields. If a Secret Manager isn’t created, then by default Harness uses **Google Key Management System** to store the secret keys.
 
-**-Add and Reference Text Secrets**
+**2. Add and Reference Text Secrets**
+
 You can create and store [Text Secrets](https://docs.harness.io/article/osfw70e59c-add-use-text-secrets) in Secret Managers to use it across Pipelines and Connectors.
 
-**-Add and Reference File Secrets**
+**3. Add and Reference File Secrets**
+
 Generally, in the pipeline steps, connectors or in other settings, we add secret text as credentials. Similarly, we can upload [encrypted files](https://docs.harness.io/article/77tfo7vtea-add-file-secrets) and use them.
 
-**-Add a Custom Secret Manager**
+**4. Add a Custom Secret Manager**
+
 Custom secrets are used for Secret Manager out of Harness listing, that is, a way to access encrypted secrets stored in third-party Secret Managers. Before we get started on how we create it, a feature flag: **CUSTOM_SECRET_MANAGER_NG** needs to be enabled. Custom Secret Manager is a read-only secret manager and you cannot **write** secrets but **read/decrypt** it. 
 
 Let’s follow the steps!
