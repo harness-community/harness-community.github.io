@@ -1,5 +1,5 @@
 ---
-slug: troubleshooting-guide-for-Harness-CD-Part-I
+slug: troubleshooting-guide-for-harness-cd-part-1
 title: "Guide for common issues and recommended solutions for CD module - Part I"
 authors: [Shruthi Kini]
 tags: [continuous-delivery, environment, delegate, harness-cd, troubleshooting-guide, cme]
