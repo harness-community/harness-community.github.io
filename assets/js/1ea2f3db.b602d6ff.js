@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkharness_community=self.webpackChunkharness_community||[]).push([[7206],{2253:e=>{e.exports=JSON.parse('{"label":"delegate","permalink":"/blog/tags/delegate","allTagsPath":"/blog/tags","count":1}')}}]);
