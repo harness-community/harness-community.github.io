@@ -1,4 +1,4 @@
-﻿---
+---
 slug: Beginners-Step-to-Harness-CD-GitOps
 title: "Beginners Step to Harness CD GitOps!"
 authors: [Shruthi Kini]
@@ -39,7 +39,7 @@ A Harness GitOps Agent is a worker process that runs in your environment and per
 
 First step is setting up an Agent on the target cluster before setting up the Cluster, Repository or Application.
 
-### Prerequisites before installation
+### Pre-requisites before installation
 
 * vCPUs, Memory, Disk Size- 1 vCPUs, 2 GB memory, 20GB disk for GitOps Agent though selecting the machine size and other factors depends on Applications and deployed services in your cluster.
 
@@ -51,12 +51,12 @@ First step is setting up an Agent on the target cluster before setting up the Cl
 
 ### Let’s get started!
 
-Step 1: At this point we have created a Kubernetes cluster following the specifications from the prerequisite section. Let us create a namespace that will be used for installing GitOps Agent on the Kubernetes cluster. We have created a namespace **plan-gitops** using command:
+Step 1: At this point we have created a Kubernetes cluster following the specifications from the pre-requisite section. Let us create a namespace that will be used for installing GitOps Agent on the Kubernetes cluster. We have created a namespace **plan-gitops** using command:
 
 ```
 kubectl get namespaces
 ```
-
+Output:
 ![agent-1](./gitops-agent-1.png) 
 
 Step 2: Add an Agent
@@ -66,15 +66,16 @@ Now go to **Settings** -> **GitOps Agent** -> **+New GitOps Agent**. You will be
 
 ![agent-2](./gitops-agent-2.png) 
 
-Step 3: You can review manifest YAML file and either install it locally or on cloud shell on a Kubernetes cluster. Now, you have to run this command 
+Step 3: You can review manifest YAML file and either download it and set it up locally or take the configurations to a yaml file and set it up on cloud shell on a Kubernetes cluster and then run this command.
 
 ``` 
 kubectl apply -f gitops-agent.yml -n plan-gitops
 ```
 
+Output:
 ![agent-3](./gitops-agent-3.png) 
 
-Step 4: Once Harness GitOps Agent is installed on the Kubernetes cluster, it indicates that the agent is registered and you can click on **Continue**.
+Step 4: Once Harness GitOps Agent is installed on the Kubernetes cluster, it indicates that the agent is registered and you can click on **Finish**.
 ![agent-4](./gitops-agent-4.png)   
 
 Step 5: Once finished the **Agents** list shows the new Agent as **Healthy** and **Connected**.   
