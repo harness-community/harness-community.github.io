@@ -1,3 +1,9 @@
+---
+slug: world-without-featureflags
+title: World without Feature Flags
+authors: [krishikasingh]
+tags: [feature-flags, continuous-integration, harness, cme]
+---
 # World without Feature Flags 
 
 In a recent survey, we saw that developers spend 30-40% of their time writing codes, now the question arises of where the rest of 70-60% of the time goes. It is spent managing features, fixing deployment issues, and reporting to various stakeholders when things go wrong.
