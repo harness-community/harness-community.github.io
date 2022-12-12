@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkharness_community=self.webpackChunkharness_community||[]).push([[7521],{7047:e=>{e.exports=JSON.parse('{"permalink":"/blog/tags/continuous-integration/page/2","page":2,"postsPerPage":10,"totalPages":2,"totalCount":12,"previousPage":"/blog/tags/continuous-integration","blogDescription":"Blog","blogTitle":"Blog"}')}}]);
