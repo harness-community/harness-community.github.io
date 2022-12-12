@@ -23,12 +23,16 @@ Now let’s move to the next part of the pipeline, which is to select the infras
 #### Step-3:
 Moving on to the execution step, let’s add a **Run Step** and name it as “testrun” and under the container registry add the already created Docker Connector, and under the image add the “rvancea/maven-chrome-jdk8”. Now let’s add a shell command to run `mvn clean compile -DsuiteXmlFile=Batch1 test`  and apply the changes. 
 
-![testrun](./testrun.png)
+
+![testrun](testrun.png)
+
 
 #### Step-4:
 Now, let’s add another **Run Step** similar to the above and name it as reports, just here contrary to the above step the command changes to `find . -name "*.xml"`.
 
-![filesgen](./filesgen.png)
+
+![filesgen](filesgen.png)
+
 
 #### Step-5:
 It’s time to add the failure strategy now as a **Run Step**, with the following command.
@@ -44,7 +48,10 @@ else
  exit 0
 fi
 ```
-![faliurestrat](./failurestrat.png)
+
+![faliurestrat](failurestrat.png)
+
+
 
 #### Step-6:
 Now, since the pipeline is complete, let’s save and run the same and the results looks like the following on the console logs.
@@ -52,6 +59,7 @@ Now, since the pipeline is complete, let’s save and run the same and the resul
 ![result](./result.png)
 
 ![reports](./reports.png)
+
 
 Once the run is successful, the above list of files are generated and can be further stored and processed as the test reports. 
 
