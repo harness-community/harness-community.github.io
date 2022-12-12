@@ -1,3 +1,9 @@
+---
+slug: introduction-to-featureflags
+title: Introduction to Feature Flags
+authors: [krishikasingh]
+tags: [feature-flags, continuous-integration, harness, cme]
+---
 # Introduction to Feature Flags
 
 ## What are Feature Toggles/Feature Flags?
