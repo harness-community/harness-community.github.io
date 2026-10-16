@@ -46,7 +46,7 @@ Harness Chaos Engineering - Slack: [#chaos-engineering](https://harnesscommunity
 
 Harness Site Reliability Management - Slack: [#site-reliability-management](https://harnesscommunity.slack.com/archives/C03DG05NTMJ)
 
-Drone by Harness - Slack: [#drone](https://harnesscommunity.slack.com/archives/C028FPGCPF0)
+Harness Open Source / Drone - Slack: [#drone](https://harnesscommunity.slack.com/archives/C028FPGCPF0)
 
 #### Language and Region Specific Channels:
 
@@ -54,31 +54,32 @@ Comunidad Harness en español - Slack: [#harness-es](https://harnesscommunity.sl
 
 ### Harness Community Forum
 
-Sign-up to Harness Community Forum [here](https://community.harness.io/signup) and create a new topic to discuss your queries, submit new ideas for product improvements, documentation feedback, report bugs, etc.
+The Harness Community forum has moved to [community.harness.io](https://community.harness.io). Sign up [here](https://community.harness.io) and create a new topic to discuss your queries, submit new ideas for product improvements, documentation feedback, report bugs, and more.
 
-[Harness Support](https://community.harness.io/c/harness/7) - Support forum for Harness Community users
+[General](https://community.harness.io/c/general/4) - For topics that don't fit a specific capability or category. If you're unsure where to post, post here.
 
-[Harness Experts](https://community.harness.io/c/harness-experts/10) - Knowledge Base for the community by the experts from Harness  Community
+[Platform and Architecture](https://community.harness.io/c/architecture-and-design/49) - Architectural patterns, design decisions, and best practices for building with Harness.
 
-[Drone Support](https://community.harness.io/c/drone/14) - Facing issues while using Drone? Create a Drone issue topic here and get help!
+[Open Source](https://community.harness.io/c/open-source/36) - Everything in the Harness open-source ecosystem: [Harness Open Source](https://github.com/harness/harness), [Harness CLI](https://github.com/harness/cli), the [Harness MCP Server](https://github.com/harness/mcp-server), Drone CI, and other community projects.
 
-[Drone FAQ](https://community.harness.io/c/faq/16) - Drone: Frequently Asked Questions 
+[Drone](https://community.harness.io/c/open-source/drone/57) - Facing issues while using Drone? Ask here and get help from the community.
 
-[Drone Bugs](https://community.harness.io/c/bugs/17) - Report a Drone bug under this category
+[Harness CLI](https://community.harness.io/c/open-source/harness-cli/60) - Questions, tips, and discussions about the unified Harness CLI.
 
-[ZeroNorth Experts](https://community.harness.io/c/zeronorth-experts/12) - Solutions, integrations, and general knowledge base about  ZeroNorth
+[Events](https://community.harness.io/c/events/31) - Upcoming webinars, meetups, and community events.
 
-[OverOps Experts](https://community.harness.io/c/overops-experts/13) - Solutions, integrations, and general knowledge base about OverOps
+[Free Tier, Pricing and Upgrade](https://community.harness.io/c/free-tier-pricing-and-upgrade) - Questions about Harness plans and the Free tier.
 
-[LitmusChaos](https://community.harness.io/c/litmus/20) - Solutions, integrations, and general knowledge base about LitmusChaos
+[Harness University](https://community.harness.io/c/harness-university) - Learning resources, certifications, and training discussions.
 
-#### Other Categories:
+#### Open Source Projects
 
-[Announcements and Events](https://community.harness.io/c/announcements/8)
+The Harness open-source ecosystem spans several independent GitHub repositories you can star, fork, and contribute to:
 
-[Development](https://community.harness.io/c/development/15)
+* [harness/harness](https://github.com/harness/harness) - Harness Open Source: an end-to-end developer platform with source control, CI/CD pipelines, hosted dev environments (Gitspaces), and artifact registries.
+* [harness/cli](https://github.com/harness/cli) - A unified, spec-driven CLI for the entire Harness platform, built for humans and agents.
+* [harness/mcp-server](https://github.com/harness/mcp-server) - Harness' official Model Context Protocol (MCP) server for connecting AI assistants to Harness.
+* [litmuschaos/litmus](https://github.com/litmuschaos/litmus) - A CNCF chaos engineering platform for Kubernetes, with roots in the Harness Chaos Engineering module.
 
-[Ideas](https://community.harness.io/c/ideas/11)
-
-[Documentation](https://community.harness.io/c/documentation/18)
+See the full list of repositories on the [Harness GitHub organization](https://github.com/harness).
 

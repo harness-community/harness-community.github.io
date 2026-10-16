@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Harness ❤️ Open Source',
-  //tagline: 'Harness loves Open Source!',
+  tagline: 'The home for the Harness Community and the Harness open-source ecosystem.',
   url: 'https://harness-community.github.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -77,10 +77,14 @@ const config = {
             label: 'Documentation',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
-          //{to: 'communityteam', label: 'Meet the Community Team', position: 'right'},
           {
-            href: 'https://github.com/harness-community/harness-community.github.io',
-            label: 'GitHub',
+            href: 'https://community.harness.io',
+            label: 'Community Forum',
+            position: 'left',
+          },
+          {
+            href: 'https://github.com/harness',
+            label: 'Open Source on GitHub',
             position: 'right',
           },
         ],
@@ -96,16 +100,41 @@ const config = {
                 href: 'https://harness.io/products/platform',
               },
               {
-                label: 'Watch Overview Video',
-                href: 'https://fast.wistia.net/embed/channel/qauwxlogqz?wvideo=rd23ssxq3k&wchannelid=qauwxlogqz&wmediaid=rd23ssxq3k',
-              },
-              {
                 label: 'Developer Hub',
                 href: 'https://developer.harness.io',
               },
               {
+                label: 'Harness Community Forum',
+                href: 'https://community.harness.io',
+              },
+              {
                 label: 'Contact Us',
                 href: 'https://harness.io/company/contact-us',
+              },
+            ],
+          },
+          {
+            title: 'OPEN SOURCE PROJECTS',
+            items: [
+              {
+                label: 'Harness Open Source',
+                href: 'https://github.com/harness/harness',
+              },
+              {
+                label: 'Harness CLI',
+                href: 'https://github.com/harness/cli',
+              },
+              {
+                label: 'Harness MCP Server',
+                href: 'https://github.com/harness/mcp-server',
+              },
+              {
+                label: 'LitmusChaos',
+                href: 'https://github.com/litmuschaos/litmus',
+              },
+              {
+                label: 'All Harness repos on GitHub',
+                href: 'https://github.com/harness',
               },
             ],
           },
@@ -117,16 +146,16 @@ const config = {
                 href: 'https://harnesscommunity.slack.com/join/shared_invite/zt-y4hdqh7p-RVuEQyIl5Hcx4Ck8VCvzBw#/shared-invite/email',
               },
               {
-                label: 'Upcoming Events',
+                label: 'Harness Community (Discourse)',
                 href: 'https://community.harness.io',
+              },
+              {
+                label: 'Open Source category',
+                href: 'https://community.harness.io/c/open-source/36',
               },
               {
                 label: 'Harness on Meetup',
                 href: 'https://www.meetup.com/harness-india/',
-              },
-              {
-                label: 'Discourse',
-                href: 'https://community.harness.io',
               },
             ],
           },

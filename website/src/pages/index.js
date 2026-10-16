@@ -16,8 +16,13 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            href="https://app.harness.io/auth/#/signup">
-            ⚡️ Get Started ⚡️
+            href="https://community.harness.io">
+            💬 Join the Community
+          </Link>
+          <Link
+            className="button button--secondary button--outline button--lg"
+            href="https://github.com/harness">
+            ⭐ Explore Open Source on GitHub
           </Link>
         </div>
       </div>
@@ -30,7 +35,7 @@ export default function Home() {
   return (
     <Layout
       title={`Hello from Harness Community`}
-      description="Harness Community is for all the neighbour developers who wants to make an impact through software and deliver them at faster velocity!">
+      description="Harness Community is the hub for the Harness open-source ecosystem — Harness, Harness CLI, the Harness MCP Server, LitmusChaos, and more. Connect on community.harness.io and contribute on GitHub!">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
