@@ -130,6 +130,10 @@ const config = {
                 label: 'Upcoming Events',
                 href: 'https://community.harness.io/c/events/31',
               },
+              {
+                label: 'Open Source Projects',
+                href: 'https://github.com/harness',
+              },
             ],
           },
           {

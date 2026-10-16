@@ -28,3 +28,5 @@ The Harness Community forum has moved to [community.harness.io](https://communit
 
 [Harness University](https://community.harness.io/c/harness-university) - Learning resources, certifications, and training discussions.
 
+Harness also maintains several [open-source projects on GitHub](https://github.com/harness), including [Harness Open Source](https://github.com/harness/harness), the [Harness CLI](https://github.com/harness/cli), and the [Harness MCP Server](https://github.com/harness/mcp-server) &mdash; feel free to star, fork, or open an issue.
+
