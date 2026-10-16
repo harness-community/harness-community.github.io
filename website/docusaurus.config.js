@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Harness ❤️ Open Source',
-  tagline: 'Ask in the open. Get answers.',
+  title: 'Harness Community',
+  tagline: 'Ask in the Open. Get Answers.',
   url: 'https://harness-community.github.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -83,11 +83,6 @@ const config = {
           {
             href: 'https://community.harness.io',
             label: 'Community Forum',
-            position: 'left',
-          },
-          {
-            href: 'https://github.com/harness',
-            label: 'Open Source on GitHub',
             position: 'right',
           },
         ],
@@ -117,31 +112,6 @@ const config = {
             ],
           },
           {
-            title: 'OPEN SOURCE PROJECTS',
-            items: [
-              {
-                label: 'Harness Open Source',
-                href: 'https://github.com/harness/harness',
-              },
-              {
-                label: 'Harness CLI',
-                href: 'https://github.com/harness/cli',
-              },
-              {
-                label: 'Harness MCP Server',
-                href: 'https://github.com/harness/mcp-server',
-              },
-              {
-                label: 'LitmusChaos',
-                href: 'https://github.com/litmuschaos/litmus',
-              },
-              {
-                label: 'All Harness repos on GitHub',
-                href: 'https://github.com/harness',
-              },
-            ],
-          },
-          {
             title: 'COMMUNITY',
             items: [
               {
@@ -149,8 +119,12 @@ const config = {
                 href: 'https://community.harness.io',
               },
               {
-                label: 'Open Source category',
-                href: 'https://community.harness.io/c/open-source/36',
+                label: 'General Discussion',
+                href: 'https://community.harness.io/c/general/4',
+              },
+              {
+                label: 'Platform & Architecture',
+                href: 'https://community.harness.io/c/architecture-and-design/49',
               },
               {
                 label: 'Upcoming Events',

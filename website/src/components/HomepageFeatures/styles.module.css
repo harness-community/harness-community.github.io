@@ -1,7 +1,7 @@
 .features {
   display: flex;
   align-items: center;
-  padding: 2rem 0;
+  padding: 3rem 0;
   width: 100%;
 }
 
@@ -11,11 +11,6 @@
 
 .featureCard {
   height: 100%;
-}
-
-.repoMeta {
-  color: var(--ifm-color-emphasis-700);
-  font-size: 0.9rem;
 }
 
 .moreLink {

@@ -4,34 +4,68 @@
  */
 
 .heroBanner {
-  padding: 4rem 0;
-  text-align: center;
+  padding: 5rem 0;
+  text-align: left;
   position: relative;
   overflow: hidden;
+  background-color: var(--harness-community-blue-bg);
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.06) 1px,
+      transparent 1px
+    ),
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.06) 1px, transparent 1px);
+  background-size: 64px 64px;
+  color: var(--harness-community-text);
+}
+
+.heroCard {
+  max-width: 760px;
+  background-color: var(--harness-community-card-bg);
+  padding: 2.5rem 3rem;
+  border-radius: 4px;
+}
+
+.heroCard :global(.hero__title) {
+  color: var(--harness-community-text);
+}
+
+.heroTitleAccent {
+  color: var(--harness-community-text);
+}
+
+.heroCard :global(.hero__subtitle) {
+  color: var(--harness-community-text);
+  opacity: 0.85;
 }
 
 @media screen and (max-width: 996px) {
   .heroBanner {
     padding: 2rem;
   }
+
+  .heroCard {
+    padding: 1.5rem;
+  }
 }
 
 .buttons {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   gap: 1rem;
   flex-wrap: wrap;
+  margin-top: 1.5rem;
 }
 
-.githubButton {
-  background-color: #0092e4;
-  border-color: #0092e4;
+.joinButton {
+  background-color: var(--harness-community-accent);
+  border-color: var(--harness-community-accent);
   color: #ffffff;
 }
 
-.githubButton:hover {
-  background-color: #0077ba;
-  border-color: #0077ba;
+.joinButton:hover {
+  background-color: var(--harness-community-accent-dark);
+  border-color: var(--harness-community-accent-dark);
   color: #ffffff;
 }
