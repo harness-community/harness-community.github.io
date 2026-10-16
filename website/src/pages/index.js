@@ -29,7 +29,7 @@ export default function Home() {
   return (
     <Layout
       title={`Welcome to the Harness Community`}
-      description="The Harness Community is where practitioners ask questions, share knowledge, and get answers from peers and Harness engineers. Join the conversation on community.harness.io.">
+      description="The Harness Community is where practitioners ask questions, share knowledge, and get answers from peers and Harness engineers.">
       <HomepageHeader />
       <main>
         <HomepageFeatures />

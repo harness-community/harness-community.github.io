@@ -2,47 +2,82 @@ import React from "react";
 import clsx from "clsx";
 import styles from "./styles.module.css";
 
-const FeatureList = [
+const ProjectList = [
   {
-    title: "Ask in the Open",
+    title: "Harness Open Source",
+    repo: "harness/harness",
+    pageUrl: "https://github.com/harness/harness",
+    license: "Apache-2.0",
     description: (
       <>
-        Post your question once on the Harness Community forum and get help
-        from fellow practitioners and Harness engineers &mdash; no more
-        digging through private tickets or scattered chat threads.
+        An end-to-end developer platform with Source Control Management,
+        CI/CD pipelines, hosted developer environments (Gitspaces), and
+        artifact registries.
       </>
     ),
   },
   {
-    title: "Share What You Know",
+    title: "Harness CLI",
+    repo: "harness/cli",
+    pageUrl: "https://github.com/harness/cli",
+    license: "Apache-2.0",
     description: (
       <>
-        Write up a solution, publish a how-to, or answer someone else&apos;s
-        question. Every post helps the next person who runs into the same
-        problem.
+        A unified, spec-driven CLI for the entire Harness platform. Manages
+        pipelines, artifacts, code, GitOps, and platform resources with one
+        consistent grammar.
       </>
     ),
   },
   {
-    title: "Stay in the Loop",
+    title: "Harness MCP Server",
+    repo: "harness/mcp-server",
+    pageUrl: "https://github.com/harness/mcp-server",
+    license: "MIT",
     description: (
       <>
-        Follow release notes, upcoming events, and platform & architecture
-        discussions so you always know what&apos;s changing and why.
+        Harness&apos; official Model Context Protocol (MCP) server, letting
+        AI assistants and agents interact with pipelines, repos, and other
+        Harness resources.
+      </>
+    ),
+  },
+  {
+    title: "LitmusChaos",
+    repo: "litmuschaos/litmus",
+    pageUrl: "https://github.com/litmuschaos/litmus",
+    license: "Apache-2.0",
+    description: (
+      <>
+        A CNCF chaos engineering platform that helps SREs and developers
+        identify weaknesses in cloud-native infrastructure.
       </>
     ),
   },
 ];
 
-function Feature({ title, description }) {
+function ProjectCard({ title, repo, pageUrl, license, description }) {
   return (
-    <div className={clsx("col col--4", styles.featureCol)}>
+    <div className={clsx("col col--6", styles.featureCol)}>
       <div className={clsx("card", styles.featureCard)}>
         <div className="card__header">
           <h3>{title}</h3>
+          <p className={styles.repoMeta}>
+            <code>{repo}</code> &middot; {license} License
+          </p>
         </div>
         <div className="card__body">
           <p>{description}</p>
+        </div>
+        <div className="card__footer">
+          <a
+            className="button button--primary button--outline button--block"
+            href={pageUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            View on GitHub →
+          </a>
         </div>
       </div>
     </div>
@@ -53,15 +88,18 @@ export default function HomepageFeatures() {
   return (
     <section className={styles.features}>
       <div className="container">
-        <h2 className="text--center">Why Join the Harness Community</h2>
+        <h2 className="text--center">Harness Open Source Projects</h2>
+        <p className="text--center">
+          A few of the open-source tools built by Harness and the community.
+        </p>
         <div className="row">
-          {FeatureList.map((props, idx) => (
-            <Feature key={idx} {...props} />
+          {ProjectList.map((props, idx) => (
+            <ProjectCard key={idx} {...props} />
           ))}
         </div>
         <div className={clsx("text--center", styles.moreLink)}>
-          <a href="https://community.harness.io">
-            Join the conversation on community.harness.io →
+          <a href="https://github.com/harness" target="_blank" rel="noopener noreferrer">
+            See all Harness repositories on GitHub →
           </a>
         </div>
       </div>
