@@ -124,6 +124,6 @@ You can use Harness CI's Background Step feature for running services that need 
 
 ### Questions?
 
-We are always happy to help with questions you might have. Search our **[documentation](https://developer.harness.io)** or check out answers to common questions. You can also post questions or comments to our **[community forum](https://community.harness.io)** or **[Slack](https://join.slack.com/t/harnesscommunity/shared_invite/zt-1ioxzr5vo-j8ljQkiTFxoRk8vBT~q8yQ)**.
+We are always happy to help with questions you might have. Search our **[documentation](https://developer.harness.io)** or check out answers to common questions. You can also post questions or comments to our **[community forum](https://community.harness.io)**.
 
 

@@ -142,10 +142,6 @@ const config = {
             title: 'COMMUNITY',
             items: [
               {
-                label: 'Join us on Slack',
-                href: 'https://harnesscommunity.slack.com/join/shared_invite/zt-y4hdqh7p-RVuEQyIl5Hcx4Ck8VCvzBw#/shared-invite/email',
-              },
-              {
                 label: 'Harness Community (Discourse)',
                 href: 'https://community.harness.io',
               },
@@ -154,8 +150,8 @@ const config = {
                 href: 'https://community.harness.io/c/open-source/36',
               },
               {
-                label: 'Harness on Meetup',
-                href: 'https://www.meetup.com/harness-india/',
+                label: 'Upcoming Events',
+                href: 'https://community.harness.io/c/events/31',
               },
             ],
           },
