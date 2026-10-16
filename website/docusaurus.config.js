@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Harness ❤️ Open Source',
-  //tagline: 'Harness loves Open Source!',
+  title: 'Harness Community',
+  tagline: 'Ask in the Open. Get Answers.',
   url: 'https://harness-community.github.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -71,104 +71,24 @@ const config = {
         },
         items: [
           {
-            type: 'doc',
-            docId: 'intro',
-            position: 'left',
+            href: 'https://developer.harness.io',
             label: 'Documentation',
+            position: 'left',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
-          //{to: 'communityteam', label: 'Meet the Community Team', position: 'right'},
           {
-            href: 'https://github.com/harness-community/harness-community.github.io',
-            label: 'GitHub',
+            href: 'https://www.harness.io/blog',
+            label: 'Blog',
+            position: 'left',
+          },
+          {
+            href: 'https://community.harness.io',
+            label: 'Community Forum',
             position: 'right',
           },
         ],
       },
       footer: {
         style: 'light',
-        links: [
-          {
-            title: 'QUICK LINKS',
-            items: [
-              {
-                label: 'Harness Platform Overview',
-                href: 'https://harness.io/products/platform',
-              },
-              {
-                label: 'Watch Overview Video',
-                href: 'https://fast.wistia.net/embed/channel/qauwxlogqz?wvideo=rd23ssxq3k&wchannelid=qauwxlogqz&wmediaid=rd23ssxq3k',
-              },
-              {
-                label: 'Developer Hub',
-                href: 'https://developer.harness.io',
-              },
-              {
-                label: 'Contact Us',
-                href: 'https://harness.io/company/contact-us',
-              },
-            ],
-          },
-          {
-            title: 'COMMUNITY',
-            items: [
-              {
-                label: 'Join us on Slack',
-                href: 'https://harnesscommunity.slack.com/join/shared_invite/zt-y4hdqh7p-RVuEQyIl5Hcx4Ck8VCvzBw#/shared-invite/email',
-              },
-              {
-                label: 'Upcoming Events',
-                href: 'https://community.harness.io',
-              },
-              {
-                label: 'Harness on Meetup',
-                href: 'https://www.meetup.com/harness-india/',
-              },
-              {
-                label: 'Discourse',
-                href: 'https://community.harness.io',
-              },
-            ],
-          },
-          {
-            title: 'MORE ON THIS SITE',
-            items: [
-              {
-                label: 'Documentation',
-                to: '/docs/intro',
-              },
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
-            ],
-          },
-          {
-            title: 'COMPANY',
-            items: [
-              {
-                label: 'About Us',
-                href: 'https://harness.io/company/about-us',
-              },
-              {
-                label: 'Press & News',
-                href: 'https://harness.io/company/press-and-news',
-              },
-              {
-                label: 'Trademark Policy',
-                href: 'https://harness.io/legal/trademark',
-              },
-              {
-                label: 'Legal',
-                href: 'https://harness.io/legal',
-              },
-              {
-                label: 'Security',
-                href: 'https://harness.io/security',
-              },
-            ],
-          },
-        ],
         copyright: `Copyright © ${new Date().getFullYear()} Harness, Inc.`,
       },
       prism: {

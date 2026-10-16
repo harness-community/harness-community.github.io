@@ -6,14 +6,21 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #0a3364;
-  --ifm-color-primary-dark: #092e5a;
-  --ifm-color-primary-darker: #092b55;
-  --ifm-color-primary-darkest: #072446;
-  --ifm-color-primary-light: #0b386e;
-  --ifm-color-primary-lighter: #0c3b73;
-  --ifm-color-primary-lightest: #0d4282;
+  --ifm-color-primary: #00a4de;
+  --ifm-color-primary-dark: #0094c8;
+  --ifm-color-primary-darker: #008bbd;
+  --ifm-color-primary-darkest: #00729c;
+  --ifm-color-primary-light: #16aee3;
+  --ifm-color-primary-lighter: #2cb8e8;
+  --ifm-color-primary-lightest: #5ccaee;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+
+  /* Harness Community brand palette (from community social cards) */
+  --harness-community-blue-bg: #d3f0ff;
+  --harness-community-card-bg: #f2f6f9;
+  --harness-community-text: #404348;
+  --harness-community-accent: #00a4de;
+  --harness-community-accent-dark: #0083b2;
 }
 
 

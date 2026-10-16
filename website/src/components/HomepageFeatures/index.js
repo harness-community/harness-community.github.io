@@ -2,65 +2,83 @@ import React from "react";
 import clsx from "clsx";
 import styles from "./styles.module.css";
 
-const FeatureList = [
+const ProjectList = [
   {
-    title: "Community Edition",
-    Svg: require("@site/static/img/cd_community_edition.svg").default,
-    pageUrl: "https://github.com/harness/harness-cd-community",
+    title: "Harness Open Source",
+    repo: "harness/harness",
+    pageUrl: "https://github.com/harness/harness",
+    license: "Apache-2.0",
     description: (
       <>
-        The Harness CD Community Edition is provided under a source-available
-        license called the
-        <a href="https://polyformproject.org/licenses/shield/1.0.0/">
-          Polyform Shield License
-        </a>
-        , which is available for use free of charge for most users.
+        An end-to-end developer platform with Source Control Management,
+        CI/CD pipelines, hosted developer environments (Gitspaces), and
+        artifact registries.
       </>
     ),
   },
   {
-    title: "Community Edition",
-    Svg: require("@site/static/img/ci_community_edition.svg").default,
-    pageUrl: "https://github.com/harness/drone/",
+    title: "Harness CLI",
+    repo: "harness/cli",
+    pageUrl: "https://github.com/harness/cli",
+    license: "Apache-2.0",
     description: (
       <>
-        The Harness CI Community Edition (aka Drone), is free and open-source
-        software (FOSS) licensed under the Apache 2.0 license.
+        A unified, spec-driven CLI for the entire Harness platform. Manages
+        pipelines, artifacts, code, GitOps, and platform resources with one
+        consistent grammar.
       </>
     ),
   },
   {
-    title: "Team Edition",
-    Svg: require("@site/static/img/ci_team_edition.svg").default,
-    pageUrl: "https://www.drone.io/enterprise/opensource/#features",
+    title: "Harness MCP Server",
+    repo: "harness/mcp-server",
+    pageUrl: "https://github.com/harness/mcp-server",
+    license: "MIT",
     description: (
       <>
-        The Harness CI Team Edition (powered by Drone) is made available under a
-        source-available license called the&nbsp;
-        <a
-          href="https://polyformproject.org/licenses/noncommercial/1.0.0/"
-          target="_blank"
-        >
-          Polyform Small Business License
-        </a>
-        , which makes it free of charge for most users.
+        Harness&apos; official Model Context Protocol (MCP) server, letting
+        AI assistants and agents interact with pipelines, repos, and other
+        Harness resources.
+      </>
+    ),
+  },
+  {
+    title: "LitmusChaos",
+    repo: "litmuschaos/litmus",
+    pageUrl: "https://github.com/litmuschaos/litmus",
+    license: "Apache-2.0",
+    description: (
+      <>
+        A CNCF chaos engineering platform that helps SREs and developers
+        identify weaknesses in cloud-native infrastructure.
       </>
     ),
   },
 ];
 
-function Feature({ Svg, title, pageUrl, description }) {
+function ProjectCard({ title, repo, pageUrl, license, description }) {
   return (
-    <div className={clsx("col col--4")}>
-      <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
-      </div>
-      <div className="text--center padding-horiz--md">
-        <h3>{title}</h3>
-        <p>{description}</p>
-        <p className="learn-more">
-          <a href={pageUrl}>Learn more →</a>
-        </p>
+    <div className={clsx("col col--6", styles.featureCol)}>
+      <div className={clsx("card", styles.featureCard)}>
+        <div className="card__header">
+          <h3>{title}</h3>
+          <p className={styles.repoMeta}>
+            <code>{repo}</code> &middot; {license} License
+          </p>
+        </div>
+        <div className="card__body">
+          <p>{description}</p>
+        </div>
+        <div className="card__footer">
+          <a
+            className="button button--primary button--outline button--block"
+            href={pageUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            View on GitHub →
+          </a>
+        </div>
       </div>
     </div>
   );
@@ -70,10 +88,19 @@ export default function HomepageFeatures() {
   return (
     <section className={styles.features}>
       <div className="container">
+        <h2 className="text--center">Harness Open Source Projects</h2>
+        <p className="text--center">
+          A few of the open-source tools built by Harness and the community.
+        </p>
         <div className="row">
-          {FeatureList.map((props, idx) => (
-            <Feature key={idx} {...props} />
+          {ProjectList.map((props, idx) => (
+            <ProjectCard key={idx} {...props} />
           ))}
+        </div>
+        <div className={clsx("text--center", styles.moreLink)}>
+          <a href="https://github.com/harness" target="_blank" rel="noopener noreferrer">
+            See all Harness repositories on GitHub →
+          </a>
         </div>
       </div>
     </section>
