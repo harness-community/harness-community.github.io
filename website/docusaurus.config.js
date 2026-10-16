@@ -71,12 +71,15 @@ const config = {
         },
         items: [
           {
-            type: 'doc',
-            docId: 'intro',
-            position: 'left',
+            href: 'https://developer.harness.io',
             label: 'Documentation',
+            position: 'left',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {
+            href: 'https://www.harness.io/blog',
+            label: 'Blog',
+            position: 'left',
+          },
           {
             href: 'https://community.harness.io',
             label: 'Community Forum',
@@ -160,11 +163,11 @@ const config = {
             items: [
               {
                 label: 'Documentation',
-                to: '/docs/intro',
+                href: 'https://developer.harness.io',
               },
               {
                 label: 'Blog',
-                to: '/blog',
+                href: 'https://www.harness.io/blog',
               },
             ],
           },
