@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Harness ❤️ Open Source',
-  tagline: 'The home for the Harness Community and the Harness open-source ecosystem.',
+  tagline: 'Ask in the open. Get answers.',
   url: 'https://harness-community.github.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',

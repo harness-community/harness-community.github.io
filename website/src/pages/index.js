@@ -20,7 +20,7 @@ function HomepageHeader() {
             💬 Join the Community
           </Link>
           <Link
-            className="button button--secondary button--outline button--lg"
+            className={clsx('button button--lg', styles.githubButton)}
             href="https://github.com/harness">
             ⭐ Explore Open Source on GitHub
           </Link>

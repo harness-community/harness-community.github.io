@@ -23,3 +23,15 @@
   gap: 1rem;
   flex-wrap: wrap;
 }
+
+.githubButton {
+  background-color: #0092e4;
+  border-color: #0092e4;
+  color: #ffffff;
+}
+
+.githubButton:hover {
+  background-color: #0077ba;
+  border-color: #0077ba;
+  color: #ffffff;
+}
